@@ -15,14 +15,14 @@ const speed = require('performance-now');
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'Lexa'; 
-const instagram = 'http://www.instagram.com/mrf.zvx'; 
-const aktif = '08:00 - 22:00';
+const BotName = 'NeKosmic'; 
+const instagram = 'http://www.instagram.com/NeKosmic_369'; 
+const aktif = '05:00 - 23:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Mrf.zvx\n' // Nama kamu
-            + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+            + 'FN:NeKosmic_369\n' // Nama kamu
+            + 'ORG:NeKosmic;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=51900234096:+51 900 234 096\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -59,7 +59,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] Scan kode qr dengan whatsapp!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] ¡Escanea el código QR con WhatsApp! UwU`);
 });
 
 conn.on('credentials-updated', () =>
@@ -72,11 +72,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Lexa Bot')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('NeKosmic Bot')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@mrf.zvx`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@NeKosmic_369`)
 })
 
 conn.on('message-new', async(m) =>
@@ -92,34 +92,50 @@ conn.on('message-new', async(m) =>
 
   //Seberapa bucin
 if (text.includes('.Seberapabucin')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, {quoted: m});
 }
 if (text.includes(".seberapabucin")){
 const teks = text.replace(/.seberapabucin /, "")
 axios.get(`https://arugaz.herokuapp.com/api/howbucins`).then((res) => {
-    let hasil = `*Bucin Detected*\n*Persentase* : ${res.data.persen}% \n_${res.data.desc}_ `;
+    let hasil = 'Simp Detectado 🥵\nPorcentaje : ${res.data.persen}% \nUse traductor para entender el mensaje 👇\n_${res.data.desc}_ `;
     conn.sendMessage(id, hasil ,MessageType.text, {quoted: m});
 })
 }
 
 //kerang ajaib
 if (text.includes('.Apakah')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .apakah aku cantik_',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n📌apakah Comando de duda\n_Ejemplo : .apakah Sere Millonario?_',MessageType.text, {quoted: m});
 }
 if (text.includes('.Bolehkah')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bolehkah aku mencintai dia_',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n📌bolehkah=>español(Puedo), comando para pedir autorización\n_Ejemplo : .bolehkah volar?_',MessageType.text, {quoted: m});
 }
 if (text.includes('.Kapan')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kapan aku kaya_',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n📌kapan=>español(Cuando), comando adverbio de tiempo\n_ejemplo : .kapan tendre una waifu real?_',MessageType.text, {quoted: m});
 }
 if (text.includes('.apakah')){
 const teks = text.replace(/./, '')
 const truth =[
-'Iya',
-'Tidak',
-'Bisa Jadi',
-'Coba tanyakan lagi',
-'Mungkin',
+'Si UwUr',
+'Obvio',
+'Claro',
+'No',
+'Nel:v',
+'Puede ser',
+'Quien sabe',
+'50/50 :v',
+'pregunta nuevamente UwU',
+'Dalo por echo',
+'Por que no?',
+'Por supuesto',
+'Estoy al 10Mil Millones% seguro que si',
+'Estoy al 10Mil Millones% seguro que no',
+'Ni idea',
+'Es relativamente posible',
+'Talves',
+'Voy a ignorar eso',
+'El universo decide tu destino',
+'Sin duda!',
+'Quede LoL',
 '🤐']
 const ttrth = truth[Math.floor(Math.random() * truth.length)]
 conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
@@ -128,13 +144,23 @@ conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType
 if (text.includes('.bolehkah')){
 const teks = text.replace(/./, '')
 const truth =[
-'Boleh',
-'Tidak boleh',
-'Sangat di anjurkan',
-'Coba tanyakan lagi',
-'Tidak',
-'Mungkin',
-'Jangan',
+'Deverias!',
+'Si',
+'Tu crees?',
+'No deverias ;-;',
+'No lo haga compa',
+'Si te lo propones aslo solo aslo',
+'Muy recomendable',
+'Pregunta nuevamente UwU',
+'No',
+'Ni lo pienses',
+'Es tu decisión',
+'Tal vez',
+'Enserio?',
+'Voy a ignorar eso',
+'Hay ya tu',
+'Ok',
+'No lo pienses',
 '🤐']
 const ttrth = truth[Math.floor(Math.random() * truth.length)]
 conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
@@ -144,39 +170,39 @@ conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType
 if (text.includes('.kapan')){
 const teks = text.replace(/./, '')
 const truth =[
-'1 Hari lagi',
-'2 hari lagi',
-'3 hari lagi',
-'4 hari lagi',
-'5 hari lagi',
-'6 hari lagi',
-'1 minggu lagi',
-'2 minggu lagi',
-'3 minggu lagi',
-'1 bulan lagi',
-'2 bulan lagi',
-'3 hari lagi',
-'4 bulan lagi',
-'5 bulan lagi',
-'6 hari lagi',
-'7 bulan lagi',
-'8 bulan lagi',
-'9 hari lagi',
-'10 bulan lagi',
-'11 bulan lagi',
-'1 tahun lagi',
-'2 tahun lagi',
-'3 tahun lagi',
-'4 tahun lagi',
-'Tidak akan',
-'Yakin bakal terjadi ?',
-'Aku meragukan nya',
-'Lusa',
-'Akhir bulan depan',
-'Awal bulan depan',
-'Tahun depan',
-'Bulan depan',
-'Sebentar lagi',
+'Algun dia',
+'De aqui 100 años',
+'Puede ser hoy',
+'Puede ser mañana',
+'Ahora',
+'Voy por unos cigarros',
+'Al proximo mes',
+'En nueve meses',
+'El dia de tu cumpleaños',
+'Nunca',
+'El dia nunca',
+'Ya no se puede',
+'Cuando los cerdos vuelen',
+'Pregunta nuevamente UwU',
+'En 3 segundos',
+'No soy cronos para saber eso',
+'El dia que nos extingamos',
+'Ni idea',
+'Cuando este universo se termine',
+'Solo se que no se nada',
+'La respuesta esta en ti',
+'Cuando dejes de existir',
+'Eso lo decide el destino',
+'365 dias y contando',
+'No se',
+'Mucho texto',
+'F',
+'En tu cuarto',
+'El fin de semana',
+'En google encontraras tu respuesta',
+'Cuando llegemos a la utopia',
+'Proximos dias',
+'Pronto',
 '🤐']
 const ttrth = truth[Math.floor(Math.random() * truth.length)]
 conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
@@ -247,19 +273,19 @@ axios.get(`https://api.vhtear.com/branly?query=${teks}&apikey=${apivhtear}`).the
 }
   //How gay
 if (text.includes('.Seberapagay')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, {quoted: m});
 }
 if (text.includes(".seberapagay")){
 const teks = text.replace(/.seberapagay /, "")
 axios.get(`https://arugaz.herokuapp.com/api/howgay`).then((res) => {
-    let hasil = `*Gay Detected*\n*Persentase* : ${res.data.persen}%\n${res.data.desc}`;
+    let hasil = `Gay detectado😳👌\nPorcentaje : ${res.data.persen}% 7v7\nUse traductor para descubrir el mensaje 👇\n${res.data.desc}`;
     conn.sendMessage(id, hasil ,MessageType.text, {quoted: m});
 })
 }
 
  //Info owner
 if (text.includes('.Owner')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, {quoted: m});
 }
 if (text.includes('.owner')){
 conn.sendMessage(id, {displayname: "Jeff", vcard: vcard}, MessageType.contact, {quoted: m})
@@ -315,7 +341,7 @@ conn.sendMessage(id, 'Done, Tutup dulu yah' ,MessageType.text);
 
   //Map
 if (text.includes('.Map')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil,\n_contoh : .map jakarta_',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT,\n_Ejemplo : .map peru_',MessageType.text, { quoted: m } );
 }
 if (text.includes('.map')){
   var teks = text.replace(/.map /, '')
@@ -324,7 +350,7 @@ if (text.includes('.map')){
       imageToBase64(res.data.gambar)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[WAIT] Searching  silakan tunggu', MessageType.text, {quoted: m})
+            conn.sendMessage(id, '[🌐] Buscando por favor espere UwU', MessageType.text, {quoted: m})
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image, {quoted: m})
         })
@@ -333,24 +359,24 @@ if (text.includes('.map')){
 
 //Informasi
 if (text.includes('.info')){
-conn.sendMessage(id, 'Bot bermasalah ? laporkan fitur error ke owner, ketik .owner',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'quieres comunicarte con el creador?, Envie el comando .owner',MessageType.text, { quoted: m } );
 }
  //install
 if (text.includes('.install')){
-conn.sendMessage(id, 'How to install whatsapp bot on android\n*Tutorial* : https://github.com/mrfzvx12/termux-whatsapp-bot',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Quieres aprender a tener el bot UwU?\n*Tutorial* : https://github.com/mrfzvx12/termux-whatsapp-bot',MessageType.text, { quoted: m } );
 }
  //intro grup
 if (text.includes('.intro')){
-conn.sendMessage(id, 'Hai\nSelamat datang\n\n╭════•›「 *INTRO* 」\n│ Nama    :\n│ Umur     :\n│ Status   :\n│ Gender  :\n│ Askot    :\n╰═══════════════',MessageType.text);
+conn.sendMessage(id, '📌Ohayo Oni-Chan :3 \n📌Se bienbenid@ UwUr\n\n╭════•›「 ⚡presentacion para los nuevos⚡ 」\n│❌Opcional UwU❌\n│ Nombre    :\n│ Edad     :\n│ Pais   :\n│ Anime fav  :\n│ Enviar audio diciendo [Oni-Chan, Yamete kudasai!, Nya!!!]   :\n╰═══════════════',MessageType.text);
 }
   //Tag
 if (text.includes('.Tagme')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, { quoted: m } );
 }
 if (text.includes('.tagme')) {
  var nomor = m.participant
  const options = {
-       text: `@${nomor.split("@s.whatsapp.net")[0]} Hai kak 🤗`,
+       text: `@${nomor.split("@s.whatsapp.net")[0]} Hola Wap@ 7v7r`,
        contextInfo: { mentionedJid: [nomor] }
  }
  conn.sendMessage(id, options, MessageType.text)
@@ -375,12 +401,12 @@ conn.sendMessage(id, options, MessageType.text)
 
   //Get ping
 if (text.includes('.Ping')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, {quoted: m});
 }
 else if (text == '.ping') {
 const timestamp = speed();
 const latensi = speed() - timestamp
-conn.sendMessage(id, `PONG!!\n_Speed : ${latensi.toFixed(4)} Second_`, MessageType.text, {quoted: m})
+conn.sendMessage(id, `🌐Ufff!!\n📡Velocidad de tu internet🛰️ : ${latensi.toFixed(4)} Segundos⚡`, MessageType.text, {quoted: m})
 }
 
   //Nulis dibuku
@@ -402,7 +428,7 @@ if (text.includes('.nulis')){
 }
   //Pengucapan ulang
 if (text.includes('.Say')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .say udin gans_',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_Ejemplo : .say Hola_',MessageType.text, {quoted: m});
 }
 if (text.includes(".say")){
   const teks = text.replace(/.say /, "")
@@ -410,13 +436,13 @@ conn.sendMessage(id, teks, MessageType.text)
 }
   //Youtube download 
 if (text.includes('.Ytmp4')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ytmp4 http://youtube..._',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_Ejemplo : .ytmp4 http://youtube..._',MessageType.text, {quoted: m});
 }
 if (text.includes('.ytmp4')){
 const teks = text.replace(/.ytmp4 /, "")
 axios.get(`https://st4rz.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
-	conn.sendMessage(id, '[ WAIT ] Mendownload...⏳ silahkan tunggu', MessageType.text, {quoted: m})
-    let hasil = `Klik link dan download hasilnya️\n*Judul* : ${res.data.title}\n*Ukuran* : ${res.data.filesize}\n*Format* : MP4\n*Link* : ${res.data.result}`;
+	conn.sendMessage(id, '[❌] Creando link directo de descarga... ⏳ espere UwU', MessageType.text, {quoted: m})
+    let hasil = `Haga clic en el enlace y descargue su video :3\n📌Titulo : ${res.data.title}\n🗜️Tamaño de video : ${res.data.filesize}\n📀Formato : MP4\n🔗Link para tu descarga UvU : ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text, {quoted: m});
 })
 }
@@ -427,8 +453,8 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ytmp
 if (text.includes('.ytmp3')){
 const teks = text.replace(/.ytmp3 /, "")
 axios.get(`https://st4rz.herokuapp.com/api/yta?url=${teks}`).then((res) => {
-    conn.sendMessage(id, '[ WAIT ] Mendownload...⏳ silahkan tunggu', MessageType.text, {quoted: m})
-    let hasil = `Klik link dan download hasilnya\n*Judul* : ${res.data.title}\n*Ukuran video* : ${res.data.filesize}\n*Format* : MP3\n*Link* : ${res.data.result}`;
+    conn.sendMessage(id, '[❌] Creando link directo de descarga... ⏳ espere UwU', MessageType.text, {quoted: m})
+    let hasil = `Haga clic en el enlace y descargue su audio :3\n📌Titulo : ${res.data.title}\n🗜️Tamaño de audio : ${res.data.filesize}\n📀Formato : MP3\n🔗Link para tu descarga UwU : ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text, {quoted: m});
 })
 }
@@ -500,7 +526,7 @@ if (text.includes(".sholat")){
 
   // Optical Character Recognition
 if (text.includes('.Ocr')){
-conn.sendMessage(id, 'Silakan ulangi dengan mengirim foto dengan caption .ocr',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Repite enviando una foto con letras y usando el comando .ocr',MessageType.text, {quoted: m});
 }
   if (messageType == 'imageMessage')
    {
@@ -521,7 +547,7 @@ conn.sendMessage(id, 'Silakan ulangi dengan mengirim foto dengan caption .ocr',M
 
   //Pict to sticker
 if (text.includes('.Stiker')){
-conn.sendMessage(id, 'Silakan ulangi dengan mengirim foto dengan caption .stiker',MessageType.text, {quoted: m});
+conn.sendMessage(id, 'Envia u responde una imagen con el comando .stiker',MessageType.text, {quoted: m});
 }
    if (messageType == 'imageMessage')
    {
