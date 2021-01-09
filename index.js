@@ -635,9 +635,9 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.tex
         imageToBase64(cewek) // Path to the image
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ] Searching cecan⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[❌] Cargando fotos random de mujeres', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); // Ta-da	
-    conn.sendMessage(id, buf ,MessageType.image, { caption: `nih gan`, quoted: m } )
+    conn.sendMessage(id, buf ,MessageType.image, { caption: `Sin contexto :v`, quoted: m } )
        
             }
         )
@@ -683,7 +683,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.tex
 
   //Random anime
 if (text.includes('.Anime')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, { quoted: m } );
 }
 if (text.includes(".anime"))
    {
@@ -698,9 +698,9 @@ if (text.includes(".anime"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ] Searching anime⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[❌] Cargando imagen random anime⏳ espere UwU', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
-    conn.sendMessage(id, buf, MessageType.image, { caption: `wibu lu`, quoted : m } )
+    conn.sendMessage(id, buf, MessageType.image, { caption: `📷`, quoted : m } )
             }
         )
         .catch(
@@ -714,19 +714,19 @@ if (text.includes(".anime"))
 
   //Pencarian lirik
 if (text.includes('.Lirik')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .lirik anji - dia_',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_Ejemplo : .lirik Asereje las ketchup_',MessageType.text, { quoted: m } );
 }
 if (text.includes(".lirik")){
 	const teks = text.split(".lirik")[1]
 	axios.get(`http://scrap.terhambar.com/lirik?word=${teks}`).then ((res) => {
-	     conn.sendMessage(id, '[ WAIT ] Searching lirik⏳ silakan tunggu', MessageType.text, { quoted: m } )
-	 	let hasil = `lirik ${teks} \n\n\n ${res.data.result.lirik}`
+	     conn.sendMessage(id, '[❌] Buscando letras ⏳ espera UwU', MessageType.text, { quoted: m } )
+	 	let hasil = `Letras de la musica :3🎤 ${teks} \n\n\n ${res.data.result.lirik}`
 	conn.sendMessage(id, hasil, MessageType.text, { quoted: m } )
 	})
 }
   //Font bapack
 if (text.includes('.Alay')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .alay udin sayang udan_',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_contoh : .alay when haces tus momos en texto_',MessageType.text, { quoted: m } );
 }
 if (text.includes(".alay")){
 	const alay = text.split(".alay")[1]
@@ -738,7 +738,7 @@ if (text.includes(".alay")){
 
   //Random memme
 if (text.includes('.Meme')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, { quoted: m } );
 }
 if (text.includes(".meme"))
    {
@@ -753,7 +753,7 @@ if (text.includes(".meme"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ] Searching meme⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[ESPERA] Buscando memes⏳ espera\nPsdt: Memes random ❌No español T_T❌', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
             }
@@ -768,7 +768,7 @@ if (text.includes(".meme"))
 
   //Random wallpaper
 if (text.includes('.Wp')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, { quoted: m } );
 }
 if (text.includes(".wp"))
    {
@@ -783,7 +783,7 @@ if (text.includes(".wp"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ] Searching wallpaper⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[❌] Buscando fondo de pantalla⏳ espera UwU', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(id, buf, MessageType.image, { quoted : m } )
             }
@@ -841,7 +841,7 @@ if (text.includes(".loli"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ] Searching ⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[❌] Cargando ⏳ espera por favor 7v7', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
     conn.sendMessage(id, buf ,MessageType.image, { caption: `👉👈`, quoted: m } )
             }
@@ -868,7 +868,7 @@ if (text.includes(".neko"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[ WAIT ] Searching ⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[❌] Cargando ⏳ espera por favor UwU', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
               conn.sendMessage(id, buf ,MessageType.image, { caption: `👉👈`, quoted: m } )
             }
