@@ -17,7 +17,7 @@ const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
 const BotName = 'NeKosmic'; 
 const instagram = 'http://www.instagram.com/NeKosmic_369'; 
-const aktif = 'El bot enviara un mensaje antes se apage o encienda';
+const aktif = 'No definido';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:NeKosmic_369\n' // Nama kamu
@@ -199,7 +199,7 @@ const truth =[
 'F',
 'En tu cuarto',
 'El fin de semana',
-'En google encontraras tu respuesta',
+'En google encontraras tu respuesta u.u',
 'Cuando llegemos a la utopia',
 'Proximos dias',
 'Pronto',
@@ -620,7 +620,7 @@ const get = require('got')
 
   //Random foto cewe
 if (text.includes('.Cecan')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, { quoted: m } );
 }
    if (text.includes(".cecan"))
    {
@@ -683,7 +683,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.tex
 
   //Random anime
 if (text.includes('.Anime')){
-conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT👌',MessageType.text, { quoted: m } );
 }
 if (text.includes(".anime"))
    {
@@ -841,7 +841,7 @@ if (text.includes(".loli"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '[❌] Cargando ⏳ espera por favor 7v7', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '[❌] Cargando ⏳ espera por favor 7v7r', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
     conn.sendMessage(id, buf ,MessageType.image, { caption: `👉👈`, quoted: m } )
             }
@@ -929,7 +929,7 @@ if (text.includes(".img"))
         imageToBase64(nimek) 
         .then(
             (response) => {
-    conn.sendMessage(id, '🔍Buscando imagenes random desde Gugul-Chan, Espere UwUr⌛', MessageType.text, { quoted: m } )
+    conn.sendMessage(id, '🔍Buscando imagenes random desde Pinterest-Chan🌐, Espere UwUr⌛', MessageType.text, { quoted: m } )
 	var buf = Buffer.from(response, 'base64'); 
     conn.sendMessage(id, buf ,MessageType.image, { quoted: m } )
             }
@@ -1010,7 +1010,7 @@ if (messageType === MessageType.text)
 
   //Nama ninja
 if (text.includes('.Namae')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .namae udin_',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_contoh : .namae udin_',MessageType.text, { quoted: m } );
 }
 if (text.includes(".namae")){
 const teks = text.replace(/.namae /, "")
@@ -1099,7 +1099,7 @@ axios.get(`https://tobz-api.herokuapp.com/api/shorturl?url=${teks}`).then((res) 
 
   //Text to pict
 if (text.includes('.Logopornhub')){
-conn.sendMessage(id, '❌Repite el comando en minúsculas TvT❌\n_Ejemplo 7v7👌 : .logopornhub NeKo/smic_',MessageType.text, { quoted: m } );
+conn.sendMessage(id, '❌Repite el comando en minúsculas TvT👌❌\n_Ejemplo 7v7👌 : .logopornhub NeKo/smic_',MessageType.text, { quoted: m } );
 }
 if (text.includes('.logopornhub')){
 var porn = text.split(".logopornhub ")[1];
@@ -1381,12 +1381,12 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
 
 //Random loli
 if (text.includes('.Loli')){
-conn.sendMessage(id, 'Repite el comando en minúsculas UwU',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas UwUr',MessageType.text, { quoted: m } );
 }
 
 //Random neko
 if (text.includes('.Neko')){
-conn.sendMessage(id, 'Repite el comando en minúsculas ÛwÛ',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas ÛwÛr',MessageType.text, { quoted: m } );
 }
 
 //Primbon kecocokan berdasarkan nama
@@ -1433,10 +1433,10 @@ if (text.includes('.menu')) {
        text: `⚡Hola @${nomor.split("@s.whatsapp.net")[0]} Soy el bot ${BotName}⚡ UwUr 
 🧾Quieres saber los Comandos para usar el bot?🧾
 ⚡Recuerda usar un (.) y minusculas Para ejecutar bien el comando correspondiente⚡
-_Ex artinya contoh_͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
+
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏  「 Lista de comandos UwU 」  
 
-> *Me apoyarias el youtube :'3* 
+> *Me apoyarias en youtube :'3?* 
   📌https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA
 > *Actividad del bot  : ${aktif}*
 
@@ -1469,90 +1469,38 @@ _Ex artinya contoh_͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏�
 ├ 🤔.Bolehkah=>significado[puedo, podre] 🧬ejm de uso 📍.bolehkah volar?📍 
 ├ 🤨.Kapan=>Significado[Cuando] 🧬ejm de uso 📍.kapan sera el fin del mundo?📍 
 ├≽️ ⚡.Say [texto]⚡
-├  🎭El bot repite lo que le pidas 🧬ejm de uso 📍.say hola📍 
+├ 🎭El bot repite lo que le pidas 🧬ejm de uso 📍.say hola📍 
 ├≽️ ⚡.Namae⚡
 ├ ✍️Te dice tu nombre ninja 🧬ejm de uso 📍solo envia el comando📍 
 ├≽️ ⚡.Stiker⚡
-├  🗜️Convierte una imagen a stiker UwUr 🧬ejm de uso 📍envie o responda una imagen con el comando correspondiente📍 
-├≽️ *.Ocr*
-├ _Mencopy kalimat di gambar_ 
-├≽️ *.Stalk (username ig)*
-├ _Ex = .Stalk @udin_ 
-├≽️ *.Shortlink (link)*
-├ _Shorter link_ 
-├≽️ *.Cecan/.Cogan*
-├ _Random foto cewe/cowo_ 
-├≽️ *.Anime*
-├ _Random foto anime_ 
-├≽️ *.Loli*
-├ _Random foto anime loli_ 
-├≽️ *.Neko*
-├ _Random foto anime neko_ 
-├≽️ *.Quotes*
-├ _Random foto quotes_ 
-├≽️ *.Twit*
-├ _Random twit_
-├≽️ *.Wp*
-├ _Random wallpaper_
-├≽️ *.Img (nama yang dicari)*
-├ _Ex = .Img iqbal_ 
-├≽️ *.Meme*
-├ _Random foto lucu_ 
-├≽️ *.Kata (quotes/author)*
-├ _Ex = .Kata Aku cinta dia/Udin_ 
-├≽️ *.Logopornhub (teks1/teks2)*
-├ _Ex : .Logopornhub Udin/nime 
-├≽️ *.Lion (teks1/teks2)*
-├ _Ex : .Lion Udin/nime 
-├≽️ *.Ninja (teks1/teks2)*
-├ _Ex : .Ninja Udin/nime 
-├≽️ *.Joker (teks1/teks2)*
-├ _Ex : .Joker Udin/nime 
-├≽️ *.Glitch (teks1/teks2)*
-├ _Ex : .Glich Udin/nime 
-├≽️ *.Snow (teks)*
-├ _Ex : .Snow Udin
-├≽️ *.Neon (teks)*
-├ _Ex : .Neon Udin_
-├≽️ *.Blood (teks)*
-├ _Ex : .Blood Udin_
-├≽️ *.Water (teks)*
-├ _Ex : .Water Udin_
-├≽️ *.Wolf (teks1/teks2)*
-├ _Ex : .Wolf Udin/nime_ 
-├≽️ *.Brainly (Pertanyaan)*
-├ _Mengambil jawaban Brainly_ 
-├≽️ *.Ngaji*
-├ _Random ayat Al-Quran_ 
-├≽️ *.Alquran (nomor ayat)
-├ _Ex : .Alquran 1_ 
-├≽️ *.Wiki*
-├ _Ex = .Wiki sejarah Indonesia_ 
-├≽️ *.Covid*
-├ _Info terkini covid indo_ 
-├≽️ *.Fakta*
-├ _Random fakta_ 
-├≽️ *.Kbbi (kata)*
-├ _Ex = .Kbbi manusia_ 
-├≽️ *.Tgl (Tanggal yang dicari)*
-├ _Info tentang tanggal nasiona
-├≽️ *.Sholat (Nama daerah)*
-├ _Ex = .Sholat Jakarta_ 
-├≽️ *.Jadwaltv (nama channel)*
-├ _Ex = .Jadwaltv Rcti_ 
-├≽️ *.Lirik*
-├ _Ex = .Lirik Anji - Dia_ 
-├≽️ *.Chord*
-├ _Ex = .Chord Anji - Dia_ 
-├≽️ *.Map (nama daerah)*
-├ _Mini map_ 
-├≽️ *.Ytmp3/.Ytmp4 link*
-├ _Ex = .Ytmp3 http://www.you..._ 
+├ 🗜️Convierte una imagen a stiker UwUr 🧬ejm de uso 📍envie o responda una imagen con el comando correspondiente📍 
+├≽️ ⚡.Ocr⚡
+├ 📇Extrae letras de una imagen  🧬ejm de uso 📍Envie una imagen con el con el comando correspondiente📍
+├≽️ ⚡.Cecan⚡
+├ 📸El bot enviara fotos random de mujeres rials :v 🧬ejm de uso 📍solo envie el Comando📍
+├≽️ ⚡.Anime⚡
+├ 🌃 Imagenes random animes 🧬ejm de uso 📍Solo envie el comando📍
+├≽️ ⚡.Loli⚡
+├ 🌌 Imagenes random de L0L15 7v7👌 🧬ejm de uso 📍solo envie el respectivo comando 7w7r📍
+├≽️ ⚡.Neko⚡
+├ ✨Imagenes random waifus neko ÛwÛ  🧬ejm de uso 📍solo envie el comando UwUr📍
+├≽️ ⚡.Wp⚡
+├ 📲Fondos de pantalla random UvU  🧬ejm de uso 📍solo envia el comando reciviras un fondo de pantalla📍 
+├≽️ ⚡.Meme [idioma indonesio]⚡
+├ 🃏meme muy random que no vas entender :v  🧬ejm de uso 📍solo envia el comando📍 
+├≽️ ⚡.Kata (Frase/autor)⚡
+├ 🖼️Genera tu frase en una imagen incorporada 🧬ejm de uso 📍.kata Es mejor caminar parado, por que sentado no we puede/jaker📍 \nPsdt: El bot puede demorar un tiempo en responder sea paciente ❗❗❗
+├≽️ ⚡.Logopornhub (texto1/texto2)⚡
+├ 🧰Se genera tu logo con la marca de pornhub 7v7👌 🧬ejm de uso 📍.logopornhub NeKo/smic📍 
+├≽️ ⚡.Fakta[recomendable usar traductor]⚡
+├ 🤯Curiosidades que no sabias 🧬ejm de uso📍solo envia el código 📍
+├≽️ ⚡.Ytmp3/.Ytmp4 link⚡
+├ ⛓️te genera un link directo para que descarges musica o video .Ytmp3 http://www.you..._ 
 ├≽️ *.Twt link*
 ├ _Ex = .Twt http://www.twt..._ 
 ├≽️ *.Ig link*
 ├ _Ex = .Ig http://www.inst.._
-├≽️ *.Joox (judul lagu)*
+├≽️ *.img (pide la imagen que quieras)*
 ├ _Ex = .Joox akad - payung teduh_ 
 ╰═══════════════  `,
        contextInfo: { mentionedJid: [nomor] }
