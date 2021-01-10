@@ -1494,14 +1494,10 @@ if (text.includes('.menu')) {
 ├ 🧰Se genera tu logo con la marca de pornhub 7v7👌 🧬ejm de uso 📍.logopornhub NeKo/smic📍 
 ├≽️ ⚡.Fakta[recomendable usar traductor]⚡
 ├ 🤯Curiosidades que no sabias 🧬ejm de uso📍solo envia el código 📍
-├≽️ ⚡.Ytmp3/.Ytmp4 link⚡
-├ ⛓️te genera un link directo para que descarges musica o video .Ytmp3 http://www.you..._ 
-├≽️ *.Twt link*
-├ _Ex = .Twt http://www.twt..._ 
-├≽️ *.Ig link*
-├ _Ex = .Ig http://www.inst.._
-├≽️ *.img (pide la imagen que quieras)*
-├ _Ex = .Joox akad - payung teduh_ 
+├≽️ ⚡.Ytmp3/.Ytmp4 [link del youtube]⚡
+├ ⛓️te genera un link directo para que descarges musica o video 🧬ejm de uso 📍✔️.ytmp4✔️.Ytmp3 http://www.youtube...📍 
+├≽️ ⚡.img (palabra clave que desees)⚡
+├ 🗂️Recibiras la imagen que pidas OwO 🧬ejm de uso 📍.img shitpost📍 
 ╰═══════════════  `,
        contextInfo: { mentionedJid: [nomor] }
  }
