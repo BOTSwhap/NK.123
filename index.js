@@ -97,7 +97,7 @@ conn.sendMessage(id, 'Repite el comando en minúsculas TvT',MessageType.text, {q
 if (text.includes(".seberapabucin")){
 const teks = text.replace(/.seberapabucin /, "")
 axios.get(`https://arugaz.herokuapp.com/api/howbucins`).then((res) => {
-    let hasil = 'Simp Detectado 🥵\nPorcentaje : ${res.data.persen}% \nUse traductor para entender el mensaje 👇\n_${res.data.desc}_ `;
+    let hasil = `*Bucin Detected*\n*Persentase* : ${res.data.persen}% \n_${res.data.desc}_ `;
     conn.sendMessage(id, hasil ,MessageType.text, {quoted: m});
 })
 }
@@ -988,7 +988,7 @@ axios.get(`https://arugaz.herokuapp.com/api/kuso?q=${sons}`).then ((res) =>{
 
   //Random fakta
 if (text.includes('.Fakta')){
-conn.sendMessage(id, 'Repite el comando en minúsculas UwU\nUse traductor para leer la curiosidad del dia :'3',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas UwU\nUse traductor para leer la curiosidad del dia',MessageType.text, { quoted: m } );
 }
 if (messageType === MessageType.text)
    {
@@ -1010,7 +1010,7 @@ if (messageType === MessageType.text)
 
   //Nama ninja
 if (text.includes('.Namae')){
-conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_contoh : .namae udin_',MessageType.text, { quoted: m } );
+conn.sendMessage(id, 'Repite el comando en minúsculas TvT\n_Ejemplo : .namae Neko_',MessageType.text, { quoted: m } );
 }
 if (text.includes(".namae")){
 const teks = text.replace(/.namae /, "")
