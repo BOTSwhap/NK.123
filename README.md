@@ -1,2 +1,2 @@
-Créditos a >mrfzvx12< por el bot UwU
+Créditos a >todos los creadores de los bot< UwU
 Son todos cracks
