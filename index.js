@@ -50,7 +50,7 @@ async function starts() {
 		start('2', 'Conectando u.u...')
 	})
 	client.on('abierto', () => {
-		success('2', 'Conectado')
+		success('2', 'Conectado owo')
 	})
 	await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./BarBar.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
@@ -115,11 +115,11 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Sedang di Prosess ⌛',
-				success: '✔️ Berhasil ✔️',
+				wait: '⌛ Procesando UwU ⌛',
+				success: '✔️ Completado ✔️',
 				error: {
-					stick: '❌ Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-					Iv: '❌ Link tidak valid ❌'
+					stick: '❌ Error, no se pudo convertir imagen a sticker T.T ❌',
+					Iv: '❌ Link invalido ❌'
 				},
 				only: {
 					group: '❌ Perintah ini hanya bisa di gunakan dalam group! ❌',
