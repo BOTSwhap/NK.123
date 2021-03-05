@@ -42,15 +42,15 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code above'))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scanee el codigo qr porfavor uwu'))
 	})
 
 	fs.existsSync('./BarBar.json') && client.loadAuthInfo('./BarBar.json')
-	client.on('connecting', () => {
-		start('2', 'Connecting...')
+	client.on('conectando u.u', () => {
+		start('2', 'Conectando u.u...')
 	})
-	client.on('open', () => {
-		success('2', 'Connected')
+	client.on('abierto', () => {
+		success('2', 'Conectado')
 	})
 	await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./BarBar.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
