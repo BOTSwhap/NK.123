@@ -1,2 +1,1 @@
-Créditos a >todos los creadores de los bot< UwU
-Son todos cracks
+Gracias por la base :3
