@@ -1,4 +1,4 @@
-## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> FEITO E TRADUZIDO POR: DARK YT
+## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Bot editado en base original de Mhankbarbar :3
 <p align="center">
 <img src="https://64.media.tumblr.com/d6951107d7436c006bffd4e485eefc4d/tumblr_mqu238Cng11rfw7flo1_400.gif" width="230" height="230"/>
 </p>
