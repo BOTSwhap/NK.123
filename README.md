@@ -7,29 +7,7 @@
  
 </details>
 
-### ATENÇÃO
-SE VOCÊ ESTA AQUI, E PQ QUEBROU A CRIPTOGRAFIA DO DARKBOT, PARABÉNS!! SO PEÇO 3 COISAS, POR FAVOR NÃO ENSINE A PASSAR DA CRIPTOGRAFIA, NÃO EXPLANE O ARQUIVO DO BOT E NÃO KIBE. POR FAVOR. !!!
+### Un bot simple para whatsapo UwU
+NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
-## NOTA:>
-A BASE DESSE BOT É A BASE DO MHANKBARBAR, POREM SE COMPARAR O MEU BOT COM O DELE PERCEBERÁ QUE HÁ UMA DIFERENÇA ENORME DE COMANDOS, VÁRIOS COMANDOS DAQUI FORAM EU QUE CRIEI. POREM DEIXO CRÉDITOS TOTAL PELA BASE AO @MHANKBARBAR
-</div>
-
-### FERRAMENTAS E MATERIAIS <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
-
-Para aprender ligar o bot, passe no meu canal:
-
-https://youtube.com/channel/UCcNXUT8f4grmNxQCxiZX95Q
-
-INSTALAÇÃO:
-
-> Se você não tiver o APK Termux, baixe-o na Playstore
-> entre no apk termux e digite abaixo!
-> (Comandos no yt)
-> (Comandos no yt)
-> (Comandos no yt)
-> (Comandos no yt)
-> (Comandos no yt)
-> (Comandos no yt)
-> Basta escanear o código qr e ... pronto
-```
 
