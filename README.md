@@ -1,7 +1,7 @@
 # 🤖 Brizas-bot 🤖
 <h1 align="center">
     <p>
-        <img src= "https://i.imgur.com/sm6LGkk.gif">
+        <img src= "https://m.imgur.com/gallery/xlGVOjg">
     </p>
     <p>
         <a href="https://github.com/ianmsfvenom"><img title="Author"    src="https://img.shields.io/badge/Author-Briz4loka-purple.svg?style=for-the-badge&logo=github"></a>
