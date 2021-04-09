@@ -15,15 +15,15 @@ NO ENTIENDO MUCHO PERO AHI VAMOS :v
 ### Inicia el bot usando termux apk 
 Aqui los comandos: </p>
 pkg update <br>
-pkg upgrade
-pkg install git && apt install git
-pkg install tesseract
-pkg install nodejs
-pkg install libwebp
-pkg install ffmpeg
-pkg install wget
-git clone https://github.com/NeKosmic/NeKosmic
-cd NeKosmic
-bash install.sh
-npm start
+pkg upgrade <br>
+pkg install git && apt install git <br> 
+pkg install tesseract <br> 
+pkg install nodejs <br> 
+pkg install libwebp <br> 
+pkg install ffmpeg <br> 
+pkg install wget <br> 
+git clone https://github.com/NeKosmic/NeKosmic <br> 
+cd NeKosmic <br> 
+bash install.sh <br> 
+npm start <br> 
 
