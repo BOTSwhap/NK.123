@@ -10,6 +10,19 @@
 ### Un bot simple para whatsapo UwU
 NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
-### git clone 
-
+### 
+Inicia el bot usando termux
+Aqui los comandos:
+pkg update
+pkg upgrade
+pkg install git && apt install git
+pkg install tesseract
+pkg install nodejs
+pkg install libwebp
+pkg install ffmpeg
+pkg install wget
+git clone https://github.com/NeKosmic/NeKosmic
+cd NeKosmic
+bash install.sh
+npm start
 
