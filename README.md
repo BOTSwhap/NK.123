@@ -14,7 +14,7 @@ NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
 ### Inicia el bot usando termux apk 
 Aqui los comandos: </p>
-pkg update
+pkg update <br>
 pkg upgrade
 pkg install git && apt install git
 pkg install tesseract
