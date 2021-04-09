@@ -10,4 +10,6 @@
 ### Un bot simple para whatsapo UwU
 NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
+### git clone 
+
 
