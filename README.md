@@ -10,9 +10,10 @@
 ### Un bot simple para whatsapo UwU
 NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
-### 
-Inicia el bot usando termux
-Aqui los comandos:
+</p>
+
+### Inicia el bot usando termux apk 
+Aqui los comandos: </p>
 pkg update
 pkg upgrade
 pkg install git && apt install git
