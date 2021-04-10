@@ -19,7 +19,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-        return`*「 REGISTRO DE DATOS 」*\n\nte registraste con los datos \n\n◪ *DATOS* \n  │ \n  ├─ ❏ NOMBRE : ${namaUser} \n  ├─ ❏ NUMERO : wa.me/${sender.split("@")[0]} \n  ├─ ❏ EDAD : ${umurUser} \n  ├─ ❏ REGISTRO HORA : ${time} \n  │ \n └─ ❏ CPF : ${serialUser} \n\n ❏ PSDT : \n NO OLVIDE ESTE NÚMERO PORQUE ES IMPORTANTE`
+        return`*「 REGISTRO DE DATOS NUEVO USUARIO 」*\n\n ⚡Te registraste con los siguientes datos⚡ \n\n◪ *DATOS* \n  │ \n  ├─ ❏ NOMBRE : ${namaUser} \n  ├─ ❏ NUMERO : wa.me/${sender.split("@")[0]} \n  ├─ ❏ EDAD : ${umurUser} \n  ├─ ❏ FECHA Y HORA DE REGISTRO : ${time} \n  │ \n  └─ ❏ CPF : ${serialUser} \n\n ❏ PSDT : \n NO OLVIDE ESTE NÚMERO PORQUE ES IMPORTANTE`
 }
 
 exports.cmdnf = (prefix, command) => {
