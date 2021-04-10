@@ -2,8 +2,8 @@ const menunsfw = (prefix, sender) => {
         return `
 😳 *MENU NSFW* 👌
  
-  ║➩ ❍ €waifuh
-  ║➩ ❍ €nekoh
+  ║➩ ❍ .waifuh
+  ║➩ ❍ .nekoh
   
   ‼Por favor no saturar los comandos ‼
   
