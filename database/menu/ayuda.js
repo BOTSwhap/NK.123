@@ -1,13 +1,13 @@
 const ayuda = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
         return `
      ✬▁ ▂ ▄ ▅ ▆ ▇ █ ПєKσsмι¢ ฿Ø₮█ ▇ ▆ ▅ ▄ ▂ ▁✬
-╔══✪〘 Tu informacion 〙✪══
+╔══✪〘 *Informacion* 〙✪══
 ║
 ║───────⊹⊱✫⊰⊹───────
-║➩ ❍ wa.me/51995386439
-║➩ ❍ *Prefijo* : 「  ${prefix}  」
-║➩ ❍ *Creador* : ${botName}
-║➩ ❍ *Nombre* : ${pushname}️
+║➩ ❍ *Numero del creador* : wa.me/51995386439
+║➩ ❍ *Prefijo para uso de comandos* : 「  ${prefix}  」
+║➩ ❍ *Nombre del bot* : ${botName}
+║➩ ❍ *Nombre del cliente* : ${pushname}️
 ║➩ ❍ *XP* : ${reqXp}
 ║➩ ❍ *Dinero* : ${uangku}
 ║🚨Use comando _*.reglas*_ para saber las reglas del grupo :3🚨
@@ -28,6 +28,8 @@ const ayuda = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ☞ ⚡ _*.ocr*_ ⚡
 ﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
 ☞ ⚡ _*.vos*_ ⚡
+﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
+☞ ⚡ _*.limite*_ ⚡
 ﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
 ☞ ⚡ _*.loliuwu*_ ⚡
 ﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
@@ -88,8 +90,6 @@ const ayuda = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ☞ ⚡ _*.cronometro*_ ⚡
 ﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
 ☞ ⚡ _*.infomp4/ .infomp3*_ ⚡
-﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
-☞ ⚡ _*.blocklist*_ ⚡ comando prueba❗
 ﻿━━━━━━━━━━━━❪❂❫━━━━━━━━━━━━
 
 ━━┫╋┃『⚡ *COMANDOS ADMINS* ⚡』┃╋┣━━
