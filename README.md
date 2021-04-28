@@ -8,7 +8,7 @@
 
  
 </details>
-
+<P align="center">
 ### Un bot simple para whatsapo UwU
 NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
@@ -28,4 +28,4 @@ git clone <br>
 cd NeKosmic <br> 
 bash install.sh <br> 
 npm start <br> 
-
+</p>
