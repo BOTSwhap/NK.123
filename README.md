@@ -9,12 +9,13 @@
  
 </details>
 <P align="center">
-### Un bot simple para whatsapo UwU
+ Un bot simple para whatsapo UwU
 NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
 </p>
 
-### Inicia el bot usando termux apk 
+<P align="center">
+Inicia el bot usando termux apk 
 Aqui los comandos: </p>
 pkg update <br>
 pkg upgrade <br>
@@ -28,4 +29,3 @@ git clone <br>
 cd NeKosmic <br> 
 bash install.sh <br> 
 npm start <br> 
-</p>
