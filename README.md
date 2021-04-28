@@ -17,6 +17,7 @@ NO ENTIENDO MUCHO PERO AHI VAMOS :v
 <P align="center">
 Inicia el bot usando termux apk 
 Aqui los comandos: </p>
+<P align="center">
 pkg update <br>
 pkg upgrade <br>
 pkg install git && apt install git <br> 
