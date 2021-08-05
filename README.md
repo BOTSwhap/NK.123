@@ -26,7 +26,7 @@ pkg install nodejs <br>
 pkg install libwebp <br> 
 pkg install ffmpeg <br> 
 pkg install wget <br> 
-git clone <br> 
+git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
 cd NeKosmic <br> 
 bash install.sh <br> 
 npm start <br> 
