@@ -28,3 +28,9 @@ Xd
 > bash install.sh
 > npm start
 ```
+
+## Comentarios
+
+```bash
+> Si encuentran algun error me comentan :3
+```
