@@ -11,7 +11,7 @@
 <p align="center">
 <a href="https://github.com/NeKosmic"><img title="Autor" src="https://img.shields.io/badge/Autor-Matt-orange?style=for-the-badge&logo=github"></a>
 </p>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/ACTUALIZADO?-PuedeSer-blue.svg"</a>
+<a href="#"><img title="ACTUALIZADO?" src="https://img.shields.io/badge/ACTUALIZADO?-PuedeSer-blue.svg"</a>
 </p>
  
 </details>
