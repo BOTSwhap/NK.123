@@ -14,7 +14,7 @@ NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
 </p>
 
-<P align="center">
+<P align="left">
 Inicia el bot usando termux apk 
 Aqui los comandos: </p>
 <P align="center">
