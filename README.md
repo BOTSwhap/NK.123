@@ -9,24 +9,32 @@
  
 </details>
 <P align="center">
- Un bot simple para whatsapo UwU
-NO ENTIENDO MUCHO PERO AHI VAMOS :v
+ Un bot simple para whatsapp
 
 </p>
 
 ## Instalacion
-Xd
-
+Para nuevos desde cero en termux:
 ```bash
 > termux-setup-storage
 (Dan permiso a su almacenamiento)
-> pkg update
-> pkg upgrade
-> pkg install git
+> termux-change-repo
+(Seleccionan todas las opciones que les aparescan en la primera ventana/En la segunda ventana seleccionan la opcion que contenga la letra 'tshingua.' )
+> apt update && pkg update
+> apt upgrade && pkg upgrade
+> apt install git && pkg install git
+> apt install tesseract && pkg install tesseract
+> apt install nodejs && pkg install nodejs
+> apt install libwebp && pkg install libwebp
+> apt install ffmpeg && pkg install ffmpeg
+> apt install wget && pkg install wget
+```
+## Despues de tener todos los packs instalados en termux
+```bash
 > git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
 > cd NeKosmic
 > bash install.sh
-> npm start
+> npm start/node index.js
 ```
 
 ## Comentarios
