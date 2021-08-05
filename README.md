@@ -14,19 +14,17 @@ NO ENTIENDO MUCHO PERO AHI VAMOS :v
 
 </p>
 
-<P align="left">
-Inicia el bot usando termux apk 
-Aqui los comandos: </p>
-<P align="center">
-pkg update <br>
-pkg upgrade <br>
-pkg install git && apt install git <br> 
-pkg install tesseract <br> 
-pkg install nodejs <br> 
-pkg install libwebp <br> 
-pkg install ffmpeg <br> 
-pkg install wget <br> 
-git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
-cd NeKosmic <br> 
-bash install.sh <br> 
-npm start <br> 
+## Instalacion
+A
+
+```bash
+> termux-setup-storage
+(Dan permiso a su almacenamiento)
+> pkg update
+> pkg upgrade
+> pkg install git
+> git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
+> cd NeKosmic <br> 
+> bash install.sh <br> 
+> npm start <br> 
+```
