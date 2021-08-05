@@ -113,6 +113,8 @@ ${thisDay} \n${day} - ${myMonths[bulan]} - ${year} ${time}
 ├➱⚡ ${prefix}buscar
 ├➱⚡ ${prefix}infomusica
 ├➱⚡ ${prefix}yutump3
+├➱⚡ ${prefix}audio
+├➱⚡ ${prefix}himnotaku
 │
 │》𝕄𝕒𝕤 ℂ𝕠𝕞𝕒𝕟𝕕𝕠𝕤《
 │
@@ -156,7 +158,6 @@ ${thisDay} \n${day} - ${myMonths[bulan]} - ${year} ${time}
 ├➱⚡ ${prefix}hmodo7v7
 ├➱⚡ ${prefix}bienbenid
 ├➱⚡ ${prefix}wlc
-├➱⚡ ${prefix}audio
 ├➱⚡ ${prefix}fotocloner
 ├➱⚡ ${prefix}grupobc
 ├➱⚡ ${prefix}bc
