@@ -15,7 +15,7 @@ NO ENTIENDO MUCHO PERO AHI VAMOS :v
 </p>
 
 ## Instalacion
-A
+Xd
 
 ```bash
 > termux-setup-storage
@@ -24,7 +24,7 @@ A
 > pkg upgrade
 > pkg install git
 > git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
-> cd NeKosmic <br> 
-> bash install.sh <br> 
-> npm start <br> 
+> cd NeKosmic
+> bash install.sh
+> npm start
 ```
