@@ -38,8 +38,6 @@ ${thisDay} \n${day} - ${myMonths[bulan]} - ${year} ${time}
 ├➱⚡ ${prefix}wa.me
 ├➱⚡ ${prefix}wame
 ├➱⚡ ${prefix}miwasa
-├➱⚡ ${prefix}minidatos
-├➱⚡ ${prefix}estadoxd
 ├➱⚡ ${prefix}baneados
 ├➱⚡ ${prefix}l
 ├➱⚡ ${prefix}top5
@@ -81,14 +79,16 @@ ${thisDay} \n${day} - ${myMonths[bulan]} - ${year} ${time}
 ├➱⚡ ${prefix}musica
 ├➱⚡ ${prefix}testgay
 ├➱⚡ ${prefix}cronometro
+├➱⚡ ${prefix}minidatos
+├➱⚡ ${prefix}estadoxd
 ├➱⚡ ${prefix}frase
 ├➱⚡ ${prefix}pregunta2
 ├➱⚡ ${prefix}preguntame
 ├➱⚡ ${prefix}tragamoneda
-├➱⚡ ${prefix}pareja7v7
+├➱⚡ ${prefix}emparejar
 ├➱⚡ ${prefix}dados
 ├➱⚡ ${prefix}da2
-├➱⚡ ${prefix}dadoxd
+├➱⚡ ${prefix}dado
 ├➱⚡ ${prefix}calumnia
 ├➱⚡ ${prefix}infotik
 ├➱⚡ ${prefix}ultimoanimes
