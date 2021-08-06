@@ -14,7 +14,7 @@
  
 </details>
 <P align="center">
- Un bot simple para whatsapp
+⚡Un bot muy simple para whatsapp :D⚡
 
 </p>
 
