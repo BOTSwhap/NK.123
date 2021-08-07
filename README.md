@@ -33,19 +33,43 @@ Para nuevos desde cero en termux:
 > apt install libwebp && pkg install libwebp
 > apt install ffmpeg && pkg install ffmpeg
 > apt install wget && pkg install wget
+
+⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/+51995386439
 ```
-## Despues de tener todos los packs instalados en termux
+## Despues de tener todos los packs instalados en termux solo usen estos comandos para comenzar
 ```bash
 > git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
 > cd NeKosmic
 > bash install.sh
 > npm start/node index.js
+## Detener al bot
+> Ctrl+c
+⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/+51995386439
 ```
+## Partes donde puedes editar al bot
+- Edicion de tu numero, nombre del bot, limite... [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/informacion.json)
+- En esta seccion estan los menus [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/panelmenu)
+- Menu principal (pueden editar el estilo xd) [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/panelmenu/help.js)
+- Destrabas (Pueden editar y poner su Destraba :v) [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/uwudefender)
 
-## Comentarios
+### Editar info del bot
 
 ```bash
-> Si encuentran algun error me comentan :3
+{
+    "creadorprincipal": "NUMERO PRINCIPAL", (Su numero con el cual usaran al bot por completo)
+    "contribuidorxd": "NUMERO SECUNDARIO", (Pueden poner el numero de un familiar, mejor amig@, novi@... podra usar el bot al igual que el dueño principal :v)
+    "contactosd": "NUMERO PRINCIPAL CON PREFIJO", (1. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51995386439")
+    "contactosdd": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439")
+    "sdcarduwu": "NOMBRE DEL CREADOR", (Poner su nombre real o su nickname ._.XD)
+  "memberlimit": "LIMITE DE MIENBROS EN UN GRUPO", (Ejm: Cuando alguien agrege al bot a un grupo con menos de 2 integrantes automáticamente el bot se saldra del grupo, limite es desde 2 asta 257)
+  "mensajes": "LIMITE DE USO PARA COMANDOS", (Aqui pueden poner el limite que quieran)
+  "namebotuwu": "NOMBRE DEL BOT" (Ponganle el name que quieran a su bot :3)
+}
+```
+## Comentarios ó sugerencias :3
+
+```bash
+> Si encuentran algun error me comentan ;)
 ```
 
 ## Agradecido con el de arriba y a estos cracks :3
