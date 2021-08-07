@@ -42,7 +42,7 @@ Para nuevos desde cero en termux:
 > cd NeKosmic
 > bash install.sh
 > npm start/node index.js
-## Detener al bot
+Para detener al bot en termux
 > Ctrl+c
 ⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/+51995386439
 ```
