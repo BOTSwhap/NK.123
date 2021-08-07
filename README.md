@@ -48,6 +48,7 @@ Para detener al bot en termux
 ```
 ## Partes donde puedes editar al bot :v
 - Edicion de tu numero, nombre del bot, limite... [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/informacion.json)
+- Edicion de bienvenida automática [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/bienbenidauwu.json)
 - En esta seccion estan los menus [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/panelmenu)
 - Menu principal (pueden editar el estilo xd) [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/panelmenu/help.js)
 - Destrabas (Pueden editar y poner su Destraba :v) [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/uwudefender)
@@ -65,6 +66,17 @@ Para detener al bot en termux
   "mensajes": "LIMITE DE USO PARA COMANDOS", (Aqui pueden poner el limite que quieran)
   "namebotuwu": "NOMBRE DEL BOT" (Ponganle el name que quieran a su bot :3)
 }
+```
+
+### Editar bienvenida automática
+
+```bash
+{
+    "bienbenida1": "TEXTO DIRIGIENDOSE A UN USUARIO NUEVO",
+    "bienbenida2": "TEXTO NOMBRANDO AL NOMBRE DEL GRUPO",
+    "bienbenida3": "FICHA DE PRESENTACIÓN",
+    "bienbenida4": "TEXTO FINAL CUALQUIERA"
+  }
 ```
 ## Comentarios ó sugerencias :3
 
