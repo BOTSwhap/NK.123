@@ -38,7 +38,7 @@ Para nuevos desde cero en termux:
 ```
 ## Despues de tener todos los packs instalados en termux solo usen estos comandos para comenzar
 ```bash
-> git clone https://github.com/NeKosmic/NeKosmic/edit/main/README.md <br> 
+> git clone https://github.com/NeKosmic/NeKosmic 
 > cd NeKosmic
 > bash install.sh
 > npm start/node index.js
