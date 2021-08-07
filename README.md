@@ -46,7 +46,7 @@ Para detener al bot en termux
 > Ctrl+c
 ⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/+51995386439
 ```
-## Partes donde puedes editar al bot
+## Partes donde puedes editar al bot :v
 - Edicion de tu numero, nombre del bot, limite... [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/informacion.json)
 - En esta seccion estan los menus [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/panelmenu)
 - Menu principal (pueden editar el estilo xd) [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/panelmenu/help.js)
