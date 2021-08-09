@@ -24,7 +24,7 @@ Para nuevos desde cero en termux:
 > termux-setup-storage
 (Dan permiso a su almacenamiento)
 > termux-change-repo
-(Seleccionan todas las opciones que les aparescan en la primera ventana/En la segunda ventana seleccionan la opcion que contenga la letra 'tshingua.' )
+(Seleccionan todas las opciones que les aparescan en la primera ventana/En la segunda ventana seleccionan la opcion que contenga la letra 'grimler.' )
 > apt update && pkg update
 > apt upgrade && pkg upgrade
 > apt install git && pkg install git
