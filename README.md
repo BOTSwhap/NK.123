@@ -48,7 +48,7 @@ Para detener al bot en termux
 ```
 ## Partes donde puedes editar al bot :v
 - Edicion de tu numero, nombre del bot, limite... [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/informacion.json)
-- Edicion de bienvenida automática [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/bienbenidauwu.json)
+- Edicion de bienvenida automática [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/editbienbenida.json)
 - Destrabas (Pueden editar y poner su Destraba :v) [esta ruta](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/uwudefender)
 
 ### Editar info del bot
