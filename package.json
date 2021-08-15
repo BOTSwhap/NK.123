@@ -1,14 +1,14 @@
 {
   "name": "Bot-Kawaii-UwU",
-  "version": "0.0.2",
+  "version": "3.0.0",
   "description": "Sexy Quien lo lea 7w7",
-  "main": "index.js",
+  "main": "nkbot.js",
   "directories": {
-    "lib": "lib"
+    "lib": "libreria"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node nkbot.js"
   },
   "keywords": [
     "termux",
