@@ -47,11 +47,9 @@ Para detener al bot en termux
 ⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/+51995386439
 ```
 ## Partes donde puedes editar al bot :v
-- Edicion de tu numero, nombre del bot, limite... [este arshivo](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/informacion.json)
-- Edicion de bienvenida automática [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/bienbenidauwu.json)
-- En esta seccion estan los menus [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/panelmenu)
-- Menu principal (pueden editar el estilo xd) [this file](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/panelmenu/help.js)
-- Destrabas (Pueden editar y poner su Destraba :v) [this section](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/uwudefender)
+- Edicion de tu numero, nombre del bot, limite... [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/informacion.json)
+- Edicion de bienvenida automática [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/basededatosxd/json/bienbenidauwu.json)
+- Destrabas (Pueden editar y poner su Destraba :v) [esta ruta](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/uwudefender)
 
 ### Editar info del bot
 
