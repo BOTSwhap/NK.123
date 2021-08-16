@@ -41,7 +41,7 @@ Para nuevos desde cero en termux:
 > git clone https://github.com/NeKosmic/NK-BOT 
 > cd NK-BOT
 > bash install.sh
-> npm start/node nkbot.js
+> npm start/node nkbot.js 
 Para detener al bot en termux
 > Ctrl+c
 ⚡Si necesitas mas ayuda puedes contactarme 
