@@ -44,7 +44,7 @@ Para nuevos desde cero en termux:
 > npm start/node nkbot.js
 Para detener al bot en termux
 > Ctrl+c
-⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/51995386439
+⚡Si necesitas mas ayuda puedes contactarme :3 [wa.me/51995386439]
 ```
 ## Partes donde puedes editar al bot :v
 - Edicion de tu numero, nombre del bot, limite... [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/informacion.json)
