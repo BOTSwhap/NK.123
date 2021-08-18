@@ -27,6 +27,7 @@
     "base64-img": "^1.0.1",
     "brainly-scraper": "^1.0.3",
     "cfonts": "^2.9.0",
+    "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.5",
     "crypto": "^1.0.1",
     "emoji-unicode": "^2.0.1",
