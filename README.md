@@ -43,7 +43,8 @@ Para nuevos desde cero en termux:
 > bash install.sh
 > npm start/node nkbot.js 
 Para detener al bot en termux
-> Ctrl+c
+> Ctrl+c/Ctrl+z
+
 ⚡Si necesitas mas ayuda puedes contactarme 
 +51 995 386 439
 ```
@@ -57,14 +58,15 @@ Para detener al bot en termux
 
 ```bash
 {
-    "creadorprincipal": "NUMERO PRINCIPAL", (Su numero con el cual usaran al bot por completo)
-    "contribuidorxd": "NUMERO SECUNDARIO", (Pueden poner el numero de un familiar, mejor amig@, novi@... podra usar el bot al igual que el dueño principal :v)
-    "contactosd": "NUMERO PRINCIPAL CON PREFIJO", (1. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51995386439")
-    "contactosdd": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439")
-    "sdcarduwu": "NOMBRE DEL CREADOR", (Poner su nombre real o su nickname ._.XD)
-  "memberlimit": "LIMITE DE MIENBROS EN UN GRUPO", (Ejm: Cuando alguien agrege al bot a un grupo con menos de 2 integrantes automáticamente el bot se saldra del grupo, limite es desde 2 asta 257)
-  "mensajes": "LIMITE DE USO PARA COMANDOS", (Aqui pueden poner el limite que quieran)
-  "namebotuwu": "NOMBRE DEL BOT" (Ponganle el name que quieran a su bot :3)
+    "botcontrolador": "NUMERO PRINCIPAL", (Su numero con el cual usaran al bot por completo)
+    "contribuidor": "NUMERO SECUNDARIO", (Pueden poner el numero de un familiar, mejor amig@, novi@... podra usar el bot al igual que el dueño principal :v)
+    "tarjetavirtualx": "NUMERO PRINCIPAL CON PREFIJO", (1. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51995386439")
+    "tarjetavirtualy": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439")
+    "dueñobot": "NOMBRE DEL CREADOR", (Poner su nombre real o su nickname ._.XD)
+    "misredes": "AQUI PUEDEN PONER EL LINKS DE SUS REDES SOCIALES ;3",
+  "limiteengrupos": "LIMITE DE MIENBROS EN UN GRUPO", (Ejm: Cuando alguien agrege al bot a un grupo con menos de 2 integrantes automáticamente el bot se saldra del grupo, limite es desde 2 asta 257)
+  "limitecomandos": "LIMITE DE USO PARA COMANDOS", (Aqui pueden poner el limite que quieran)
+  "nombrebot": "NOMBRE DEL BOT" (Ponganle el name que quieran a su bot :3)
 }
 ```
 
@@ -73,9 +75,7 @@ Para detener al bot en termux
 ```bash
 {
     "bienbenida1": "TEXTO DIRIGIENDOSE A UN USUARIO NUEVO",
-    "bienbenida2": "TEXTO NOMBRANDO AL NOMBRE DEL GRUPO",
-    "bienbenida3": "FICHA DE PRESENTACIÓN",
-    "bienbenida4": "TEXTO FINAL CUALQUIERA"
+    "despedida1": "TEXTO DE DESPEDIDA SI UN USUARIO SE SALE DE UN GRUPO"
   }
 ```
 ## Comentarios ó sugerencias :3
