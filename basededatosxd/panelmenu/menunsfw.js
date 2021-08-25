@@ -32,7 +32,6 @@ const menunsfw = (prefix, sender) => {
 ║➩ ❍ ${prefix}cuddle
 ║➩ ❍ ${prefix}hwaifu
 ║➩ ❍ ${prefix}hneko
-║➩ ❍ ${prefix}yaoi
 ║➩ ❍ ${prefix}ecchi
 ║➩ ❍ ${prefix}hentai
 ║➩ ❍ ${prefix}ahegao
