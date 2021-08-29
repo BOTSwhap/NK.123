@@ -64,7 +64,7 @@ Para detener al bot en termux
     "tarjetavirtualy": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439")
     "dueñobot": "NOMBRE DEL CREADOR", (Poner su nombre real o su nickname ._.XD)
     "misredes": "AQUI PUEDEN PONER EL LINKS DE SUS REDES SOCIALES ;3",
-  "limiteengrupos": "LIMITE DE MIENBROS EN UN GRUPO", (Ejm: Cuando alguien agrege al bot a un grupo con menos de 2 integrantes automáticamente el bot se saldra del grupo, limite es desde 2 asta 257)
+  "limiteengrupos": "LIMITE DE MIENBROS EN UN GRUPO", (Ejm: Cuando alguien agrege al bot a un grupo con menos de 2 integrantes automáticamente el bot se saldra del grupo, limite es desde 2 asta 256)
   "limitecomandos": "LIMITE DE USO PARA COMANDOS", (Aqui pueden poner el limite que quieran)
   "nombrebot": "NOMBRE DEL BOT" (Ponganle el name que quieran a su bot :3)
 }
