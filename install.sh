@@ -23,4 +23,4 @@ npm i cfonts
 npm i
 npm audit fix --force
 
-echo ":)"
+echo "no hay musiquita para el final xd"
