@@ -15,4 +15,4 @@ npm install
 play audindex.mp3
 termimage datakawaii.png
 
-echo "no olvides tomar awita nwn"
+echo "no olvides tomar awita nwn "
