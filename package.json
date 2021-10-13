@@ -36,6 +36,7 @@
     "request": "^2.81.0",
     "spinnies": "^0.5.1",
     "performance-now": "^2.1.0",
+    "image-to-base64": "^2.2.0",
     "g-i-s": "^2.1.6",
     "google-it": "^1.6.0",
     "chalk": "^4.1.2",
