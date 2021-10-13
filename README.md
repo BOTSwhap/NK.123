@@ -50,34 +50,21 @@ Para detener al bot en termux
 ```
 ## Partes donde puedes editar al bot :v
 - Edicion de tu numero, nombre del bot, limite... [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/informacion.json)
-- Edicion de bienvenida automática [este archivo](https://github.com/NeKosmic/NeKosmic/blob/main/editbienbenida.json)
-- Agregar sus imágenes random [Esta ruta](https://github.com/NeKosmic/NK-BOT/tree/main/fakeapixd)
-- Destrabas (Pueden editar y poner su Destraba :v) [esta ruta](https://github.com/NeKosmic/NeKosmic/tree/main/basededatosxd/uwudefender)
 
 ### Editar info del bot
 
 ```bash
 {
-    "botcontrolador": "NUMERO PRINCIPAL", (Su numero con el cual usaran al bot por completo)
-    "contribuidor": "NUMERO SECUNDARIO", (Pueden poner el numero de un familiar, mejor amig@, novi@... podra usar el bot al igual que el dueño principal :v)
-    "tarjetavirtualx": "NUMERO PRINCIPAL CON PREFIJO", (1. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51995386439")
-    "tarjetavirtualy": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439")
-    "dueñobot": "NOMBRE DEL CREADOR", (Poner su nombre real o su nickname ._.XD)
-    "misredes": "AQUI PUEDEN PONER EL LINKS DE SUS REDES SOCIALES ;3",
-  "limiteengrupos": "LIMITE DE MIENBROS EN UN GRUPO", (Ejm: Cuando alguien agrege al bot a un grupo con menos de 2 integrantes automáticamente el bot se saldra del grupo, limite es desde 2 asta 256)
-  "limitecomandos": "LIMITE DE USO PARA COMANDOS", (Aqui pueden poner el limite que quieran)
-  "nombrebot": "NOMBRE DEL BOT" (Ponganle el name que quieran a su bot :3)
-}
+    "prefijo": "PREFIJO PARA USAR LOS COMANDOS",
+    "botcontrolador": "NUMERO PRINCIPAL", (Su numero con el cual usaran al bot por completo),
+    "recreador": "NOMBRE DEL COCREADOR O SEGUNDO DUEÑO DEL BOT", (Pueden poner su nombre ú apodo ;v)
+    "vcardx": "NUMERO PRINCIPAL CON PREFIJO", (1. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51995386439"),
+    "vcardy": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439"),
+    "nombrebot": "NK-BOT", (pueden poner cualquier nombre al bot),
+    "TusRedesSociales": "~>[TuCanalDeYoutube]\n~>[PaginaDeFacebook]\n~>[TusOtrasRedesSociales...]"
+    }
 ```
 
-### Editar bienvenida automática
-
-```bash
-{
-    "bienbenida1": "TEXTO DIRIGIENDOSE A UN USUARIO NUEVO",
-    "despedida1": "TEXTO DE DESPEDIDA SI UN USUARIO SE SALE DE UN GRUPO"
-  }
-```
 ## Comentarios ó sugerencias :3
 
 ```bash
@@ -88,7 +75,6 @@ Para detener al bot en termux
 
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 * <a href="https://github.com/MhankBarBar"><img alt="GitHub" src="https://img.shields.io/badge/MhankBarBar%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
-* <a href="https://github.com/NazwaS"><img alt="GitHub" src="https://img.shields.io/badge/NazwaS%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 ## Grupo de WhatsApp
 PSDT: Grupo otaku/anime
 * <a href="https://chat.whatsapp.com/BcSo5z69P0f7gDOJA3FaKy"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
