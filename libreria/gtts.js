@@ -6,7 +6,7 @@ const MultiStream = require('multistream');
 const fakeUa = require('fake-useragent');
 
 const GOOGLE_TTS_URL = 'http://translate.google.com/translate_tts';
-const MAX_CHARS = 600;
+const MAX_CHARS = 100;
 const LANGUAGES = {
   'af': 'Afrikaans',
   'sq': 'Albanian',
@@ -67,7 +67,7 @@ function Text2Speech(_lang, _debug) {
   lang = lang.toLowerCase();
 
   if (!LANGUAGES[lang])
-    throw new Error('Lenguaje no soportado: ' + lang);
+    throw new Error('Language not supported: ' + lang);
 
   var getArgs = getArgsFactory(lang);
 
@@ -139,7 +139,7 @@ function getArgsFactory(lang){
 function tokenize(text) {
   var text_parts = [];
   if (!text)
-    throw new Error('Sin texto no hay audio');
+    throw new Error('No text to speak');
 
   var punc = '¡!()[]¶;|°•—«»≤≥«»‹›\n ';
   var punc_list = punc.split('').map(function(char) {
