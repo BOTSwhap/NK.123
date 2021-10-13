@@ -94,7 +94,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║ _OTROS CMDS :_*
 *║╭—————————*
 *║├${prefix}bloqueados*
-*║├${prefix}baneados*
 *║├${prefix}admins*
 *║├${prefix}grupolink*
 *║├${prefix}estado*
