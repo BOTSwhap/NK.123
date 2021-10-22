@@ -42,7 +42,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *╔═══════════*
 *║ _CMDS ADMINS :_*
 *║╭—————————*
-*║├${prefix}calumnia*
 *║├${prefix}invocar*
 *║├${prefix}invocar2*
 *║├${prefix}invocar3*
@@ -51,6 +50,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}degradar*
 *║├${prefix}banchat*
 *║├${prefix}antilink*
+*║├${prefix}antilink2*
 *║├${prefix}wlc*
 *║├${prefix}modofull*
 *║├${prefix}animeuwu*
@@ -63,8 +63,9 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *╔═══════════*
 *║ _CMDS CREADOR :_*
 *║╭—————————*
+*║├${prefix}reiniciarlimite*
 *║├${prefix}prefijoedit*
-*║├${prefix}suprimir
+*║├${prefix}suprimir*
 *║├${prefix}ban* _~uso responsable~_
 *║├${prefix}bc*
 *║├${prefix}modo1*
@@ -93,9 +94,13 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *╔═══════════*
 *║ _OTROS CMDS :_*
 *║╭—————————*
+*║├${prefix}gruposwa*
+*║├${prefix}minivel*
+*║├${prefix}milimite*
 *║├${prefix}bloqueados*
 *║├${prefix}admins*
 *║├${prefix}grupolink*
+*║├${prefix}ia_void*
 *║├${prefix}estado*
 *║├${prefix}frase*
 *║├${prefix}miperfil*
@@ -110,6 +115,126 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}randmenu*
 *║╰—————————*
 *╚═══════════*
+`
+}
+exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol, fechaecu, fechacosr, fechacub, fechagua, fechahon, fechanic, fechapan, fechauru, fechaven, fechapar) => {
+  return `*╔═══════════════*
+*╠「 Zona-Horaria 🌎 」*
+*║Peru            : ${time}*
+*║Mexico        : ${fechamex}*
+*║Bolivia         : ${fechabol}*
+*║Chile            : ${fechachi}*
+*║Argentina    : ${fechaarg}*
+*║Colombia    : ${fechacol}*
+*║Ecuador       : ${fechaecu}*
+*║Costa_Rica : ${fechacosr}*
+*║Cuba            : ${fechacub}*
+*║Guatemala  : ${fechagua}*
+*║Honduras    : ${fechahon}*
+*║Nicaragua   : ${fechanic}*
+*║Panamá      : ${fechapan}*
+*║Uruguay      : ${fechauru}*
+*║Venezuela   : ${fechaven}*
+*║Paraguay    : ${fechapar}*
+*╚═══════════════*
+*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈*
+➱ *_COMANDOS_  ☷*
+*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈*
+*╔═══════════════*
+*║ _CONVERSORES :_*
+*║╭————————————*
+*║├${prefix}sticker* _[convierte una imagen a sticker]_
+*║├${prefix}aimg* _[convierte un sticker a imagen]_
+*║├${prefix}lector* _[sacar texto de una imagen]_
+*║├${prefix}inframundo* _[editor de audio]_
+*║├${prefix}happyhardcore* _[editor de audio]_
+*║├${prefix}ardilla* _[editor de audio]_
+*║├${prefix}superveloz* _[editor de audio]_
+*║├${prefix}bruhbajo* _[editor de audio]_
+*║├${prefix}nightcore* _[editor de audio]_
+*║├${prefix}lento* _[editor de audio]_
+*║├${prefix}demonio* _[editor de audio]_
+*║├${prefix}distorcionado* _[editor de audio]_
+*║├${prefix}aumentarbajo* _[editor de audio]_
+*║├${prefix}grabacion* _[editor de audio]_
+*║╰————————————*
+*╚═══════════════*
+*╔═══════════════*
+*║ _CMDS ADMINS :_*
+*║╭————————————*
+*║├${prefix}invocar* _[etiqueta a todos]_
+*║├${prefix}invocar2* _[etiqueta a todos]_
+*║├${prefix}invocar3* _[etiqueta a todos]_
+*║├${prefix}invocar4* _[etiqueta a todos]_
+*║├${prefix}ascender* _[convertir a administrador]_
+*║├${prefix}degradar* _[quitar administracion]_
+*║├${prefix}banchat* _[banear un chat]_
+*║├${prefix}antilink* _[anti-link normal]_
+*║├${prefix}antilink2* _[anti-link multiple]_
+*║├${prefix}wlc* _[bienvenida automática]_
+*║├${prefix}modofull* _[activador 1]_
+*║├${prefix}animeuwu* _[activador 2]_
+*║├${prefix}hmodo* _[activador 3]_
+*║├${prefix}l* _[etiqueta multimedia]_
+*║├${prefix}.* _[etiqueta invisible]_
+*║├${prefix}buscamsj* _[busca un mensaje en el chat]_
+*║╰————————————*
+*╚═══════════════*
+*╔═══════════════*
+*║ _CMDS CREADOR :_*
+*║╭————————————*
+*║├${prefix}reiniciarlimite* _[reinicia el limite]_
+*║├${prefix}prefijoedit* _[editar prefijo nuevo]_
+*║├${prefix}suprimir* _[eliminar un mensaje del bot]_
+*║├${prefix}ban* _~[uso responsable]~_
+*║├${prefix}bc* _[transmitir un mensaje]_
+*║├${prefix}modo1* _[modo privado/publico]_
+*║├${prefix}modo2* _[modo enlinea/sinlinea]_
+*║├${prefix}banear* _[banear a un cliente]_
+*║├${prefix}quitarbaneo* _[quitar baneo]_
+*║╰————————————*
+*╚═══════════════*
+*╔═══════════════*
+*║ _PASATIEMPO :_*
+*║╭————————————*
+*║├${prefix}calumnia* _[crea un mensaje falso]_
+*║├${prefix}preguntame* _[preguntas random]_
+*║├${prefix}pregunta2* _[preguntas otaku]_
+*║├${prefix}ruleta* _[juego desesperante]_
+*║├${prefix}testgay* _[porcentaje gey]_
+*║├${prefix}tragamoneda* _[tragamoneda :v]_
+*║├${prefix}dado* _[dados 1]_
+*║├${prefix}dados* _[dados 2]_
+*║├${prefix}da2* _[dados 3]_
+*║├${prefix}emparejar* _[crear una pareja]_
+*║├${prefix}top5* _[crear tops]_
+*║├${prefix}v_o_f* _[verdad o falso]_
+*║╰————————————*
+*╚═══════════════*
+*╔═══════════════*
+*║ _OTROS CMDS :_*
+*║╭————————————*
+*║├${prefix}gruposwa* _[grupos de WhatsApp]_
+*║├${prefix}minivel* _[ver tu nivel actual]_
+*║├${prefix}milimite* _[ver tu límite actual]_
+*║├${prefix}bloqueados* _[numeros bloqueados]_
+*║├${prefix}admins* _[administradores del grupo]_
+*║├${prefix}grupolink* _[link del grupo]_
+*║├${prefix}ia_void* _[textvoid mucho texto]_
+*║├${prefix}estado* _[mini anecdotas]_
+*║├${prefix}frase* _[frases random]_
+*║├${prefix}miperfil* _[tu perfil]_
+*║╰————————————*
+*╚═══════════════*
+*╔═══════════════*
+*║ _MAS COMANDOS :_*
+*║╭————————————*
+*║├${prefix}labiblia* _[comandos H]_
+*║├${prefix}crealogos* _[comandos de logos]_
+*║├${prefix}animages* _[comandos anime]_
+*║├${prefix}randmenu* _[mas comandos]_
+*║╰————————————*
+*╚═══════════════*
 `
 }
 exports.menunsfw = (prefix) => {
@@ -690,6 +815,12 @@ exports.letter = () => {
 }
 exports.playaudi = (prefix) => {
   return `Ejemplo: ${prefix}play mtc s3rl`
+}
+exports.levelon = () => {
+  return `Nivel activado en el grupo `
+}
+exports.leveloff = () => {
+  return `Nivel desactivado en el grupo `
 }
 exports.banichat = () => {
   return `*[ ! ] Este chat fue baneado [ ! ]*`
