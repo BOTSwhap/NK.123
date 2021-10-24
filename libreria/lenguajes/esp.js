@@ -26,6 +26,9 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}sticker*
 *║├${prefix}aimg*
 *║├${prefix}lector*
+*║├${prefix}acelerarvid*
+*║├${prefix}lentovid*
+*║├${prefix}reversavid*
 *║├${prefix}inframundo*
 *║├${prefix}happyhardcore*
 *║├${prefix}ardilla*
@@ -42,6 +45,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *╔═══════════*
 *║ _CMDS ADMINS :_*
 *║╭—————————*
+*║├${prefix}deathnote*
 *║├${prefix}invocar*
 *║├${prefix}invocar2*
 *║├${prefix}invocar3*
@@ -66,7 +70,8 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}reiniciarlimite*
 *║├${prefix}prefijoedit*
 *║├${prefix}suprimir*
-*║├${prefix}ban* _~uso responsable~_
+*║├${prefix}desterrar*
+*║├${prefix}ban*
 *║├${prefix}bc*
 *║├${prefix}modo1*
 *║├${prefix}modo2*
@@ -77,6 +82,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *╔═══════════*
 *║ _PASATIEMPO :_*
 *║╭—————————*
+*║├${prefix}quien*
 *║├${prefix}calumnia*
 *║├${prefix}preguntame*
 *║├${prefix}pregunta2*
@@ -96,6 +102,9 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║╭—————————*
 *║├${prefix}gruposwa*
 *║├${prefix}minivel*
+*║├${prefix}tienda*
+*║├${prefix}tiendaimg*
+*║├${prefix}rescom*
 *║├${prefix}milimite*
 *║├${prefix}bloqueados*
 *║├${prefix}admins*
@@ -146,6 +155,9 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}sticker* _[convierte una imagen a sticker]_
 *║├${prefix}aimg* _[convierte un sticker a imagen]_
 *║├${prefix}lector* _[sacar texto de una imagen]_
+*║├${prefix}acelerarvid* _[aumentar velocidad de un vídeo]_
+*║├${prefix}lentovid* _[reducir velocidad de video]_
+*║├${prefix}reversavid* _[invierte un vídeo]_
 *║├${prefix}inframundo* _[editor de audio]_
 *║├${prefix}happyhardcore* _[editor de audio]_
 *║├${prefix}ardilla* _[editor de audio]_
@@ -162,6 +174,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *╔═══════════════*
 *║ _CMDS ADMINS :_*
 *║╭————————————*
+*║├${prefix}deathnote* _[eliminacion random]_
 *║├${prefix}invocar* _[etiqueta a todos]_
 *║├${prefix}invocar2* _[etiqueta a todos]_
 *║├${prefix}invocar3* _[etiqueta a todos]_
@@ -186,7 +199,8 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}reiniciarlimite* _[reinicia el limite]_
 *║├${prefix}prefijoedit* _[editar prefijo nuevo]_
 *║├${prefix}suprimir* _[eliminar un mensaje del bot]_
-*║├${prefix}ban* _~[uso responsable]~_
+*║├${prefix}desterrar* _~[eliminar con etiqueta]~_
+*║├${prefix}ban* _~[eliminar con mención]~_
 *║├${prefix}bc* _[transmitir un mensaje]_
 *║├${prefix}modo1* _[modo privado/publico]_
 *║├${prefix}modo2* _[modo enlinea/sinlinea]_
@@ -197,6 +211,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *╔═══════════════*
 *║ _PASATIEMPO :_*
 *║╭————————————*
+*║├${prefix}quien* _[seleccion aleatorio]_
 *║├${prefix}calumnia* _[crea un mensaje falso]_
 *║├${prefix}preguntame* _[preguntas random]_
 *║├${prefix}pregunta2* _[preguntas otaku]_
@@ -216,6 +231,9 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║╭————————————*
 *║├${prefix}gruposwa* _[grupos de WhatsApp]_
 *║├${prefix}minivel* _[ver tu nivel actual]_
+*║├${prefix}tienda* _[genera una tienda falsa]_
+*║├${prefix}tiendaimg* _[genera una tienda falsa]_
+*║├${prefix}rescom* _[copia comentario de una imagen]_
 *║├${prefix}milimite* _[ver tu límite actual]_
 *║├${prefix}bloqueados* _[numeros bloqueados]_
 *║├${prefix}admins* _[administradores del grupo]_
@@ -815,6 +833,9 @@ exports.letter = () => {
 }
 exports.playaudi = (prefix) => {
   return `Ejemplo: ${prefix}play mtc s3rl`
+}
+exports.getmen = () => {
+  return `*[ ! ] Responda una imagen que contenga un comentario*`
 }
 exports.yaesta = () => {
   return `*[ ! ] Esta opción ya estuvo activa en el grupo*`
