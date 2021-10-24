@@ -816,6 +816,9 @@ exports.letter = () => {
 exports.playaudi = (prefix) => {
   return `Ejemplo: ${prefix}play mtc s3rl`
 }
+exports.yaesta = () => {
+  return `*[ ! ] Esta opción ya estuvo activa en el grupo*`
+}
 exports.levelon = () => {
   return `Nivel activado en el grupo `
 }
