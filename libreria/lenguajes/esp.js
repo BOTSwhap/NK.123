@@ -77,6 +77,14 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}modo2*
 *║├${prefix}banear*
 *║├${prefix}quitarbaneo*
+*║||| ~MODO KUAKER~ |||*
+*║├${prefix}c1*
+*║├${prefix}c2*
+*║├${prefix}c3*
+*║├${prefix}c4*
+*║├${prefix}c5*
+*║├${prefix}c6*
+*║├${prefix}:)*
 *║╰—————————*
 *╚═══════════*
 *╔═══════════*
@@ -206,6 +214,15 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}modo2* _[modo enlinea/sinlinea]_
 *║├${prefix}banear* _[banear a un cliente]_
 *║├${prefix}quitarbaneo* _[quitar baneo]_
+*║||| ~MODO KUAKER~ |||*
+*║[ ! ] Simples traba grupo nwn [ ! ]*
+*║├${prefix}c1* _[grupo crash 1]_
+*║├${prefix}c2* _[grupo crash 2]_
+*║├${prefix}c3* _[grupo crash 3]_
+*║├${prefix}c4* _[grupo crash 4]_
+*║├${prefix}c5* _[grupo crash 5]_
+*║├${prefix}c6* _[grupo crash 6]_
+*║├${prefix}:)* _[multi crash]_
 *║╰————————————*
 *╚═══════════════*
 *╔═══════════════*
@@ -916,7 +933,7 @@ exports.sexy7w7 = () => {
   return `Sexy El Que Lo Lea 7w7r`
 }
 exports.infobot = (execc, apodox, servery, browserr, conectin, procesor, celular, osversi, modelo, memory, infomcc, infomnc, wasapv) => {
-  return `》 *BOT : (activo)* 《    ‏  ‌    ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‏  ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌\n┏─━─━━─━─━━─━─┓\n┣➪ *Tiempo de ejecucion : _${execc}_*\n┣➪ *Version del bot : _4.0.0-beta 3_*\n┣➪ *Apodo en Whatsapp : _${apodox}_*\n┣➪ *Servidor Web Whatsapp : _${servery}/Baileys_*\n┣➪ *Buscador : _${browserr}_*\n┣➪ *Velocidad de conexion: _${conectin}_*\n┣➪ *Velocidad de procesamiento : _${procesor}_*\n*EJECUTANDOSE DESDE*\n┣➪ *Dispositivo: _${celular}_*\n┣➪ *Version del sistema Operatico OS : _${osversi}_*\n┣➪ *Modelo del dispositivo : _${modelo}_*\n┣➪ *RAM : Usado _${memory}_*\n┣➪ *MCC código de país del móvil : _${infomcc}_*\n┣➪ *MNC Código de red móvil : _${infomnc}_*\n┣➪ *Version de Whatsapp : _${wasapv}_*\n┗─━─━ 「 ✵ 」━━─━─┛\n⇝ *NK-BOT* \n➣ _*Un bot simple, inicialmente creado para un tema otaku/anime, base original de Mhankbarbar(crack UwU)*_\nModos de conexion: con paquete de MBS o con promocion de Whatsapp\n▪︎ ~Fecha de inicio: 2020/09/01~`
+  return `》 *BOT : (activo)* 《    ‏  ‌    ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‏  ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌\n┏─━─━━─━─━━─━─┓\n┣➪ *Tiempo de ejecucion : _${execc}_*\n┣➪ *Version del bot : _5.0.0_*\n┣➪ *Apodo en Whatsapp : _${apodox}_*\n┣➪ *Servidor Web Whatsapp : _${servery}/Baileys_*\n┣➪ *Buscador : _${browserr}_*\n┣➪ *Velocidad de conexion: _${conectin}_*\n┣➪ *Velocidad de procesamiento : _${procesor}_*\n*EJECUTANDOSE DESDE*\n┣➪ *Dispositivo: _${celular}_*\n┣➪ *Version del sistema Operatico OS : _${osversi}_*\n┣➪ *Modelo del dispositivo : _${modelo}_*\n┣➪ *RAM : Usado _${memory}_*\n┣➪ *MCC código de país del móvil : _${infomcc}_*\n┣➪ *MNC Código de red móvil : _${infomnc}_*\n┣➪ *Version de Whatsapp : _${wasapv}_*\n┗─━─━ 「 ✵ 」━━─━─┛\n⇝ *NK-BOT* \n➣ _*Un bot simple, inicialmente creado para un tema otaku/anime, base original de Mhankbarbar(crack UwU)*_\nModos de conexion: con paquete de MBS o con promocion de Whatsapp\n▪︎ ~Fecha de inicio: 2020/09/01~`
 }
 exports.animes = () => {
   return `*[ ! ] Modo anime ta apagado >_<*`
