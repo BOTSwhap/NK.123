@@ -84,7 +84,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}c4*
 *║├${prefix}c5*
 *║├${prefix}c6*
-*║├${prefix}:)*
 *║╰—————————*
 *╚═══════════*
 *╔═══════════*
@@ -222,7 +221,6 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}c4* _[grupo crash 4]_
 *║├${prefix}c5* _[grupo crash 5]_
 *║├${prefix}c6* _[grupo crash 6]_
-*║├${prefix}:)* _[multi crash]_
 *║╰————————————*
 *╚═══════════════*
 *╔═══════════════*
