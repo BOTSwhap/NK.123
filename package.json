@@ -57,8 +57,8 @@
     "yt-search": "^2.7.6"
   },
   "engines": {
-    "node": "16.x",
-    "npm": "7.x"
+    "node": "v17.1.0",
+    "npm": "8.1.2"
   },
   "repository": {
     "type": "git",
