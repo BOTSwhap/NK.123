@@ -46,7 +46,8 @@
     "performance-now": "^2.1.0",
     "request": "^2.88.2",
     "spinnies": "^0.5.1",
-    "util": "^0.12.4"
+    "util": "^0.12.4",
+    "webp-converter": "^2.3.3"
   },
   "engines": {
     "node": "16.x",
