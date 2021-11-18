@@ -25,7 +25,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║╭—————————*
 *║├${prefix}sticker*
 *║├${prefix}aimg*
-*║├${prefix}lector*
 *║├${prefix}acelerarvid*
 *║├${prefix}lentovid*
 *║├${prefix}reversavid*
@@ -59,9 +58,12 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}modofull*
 *║├${prefix}animeuwu*
 *║├${prefix}hmodo*
+*║├${prefix}antifakes*
+*║├${prefix}antiestranjeros*
 *║├${prefix}l*
 *║├${prefix}.*
 *║├${prefix}buscamsj*
+*║├${prefix}delttc*
 *║╰—————————*
 *╚═══════════*
 *╔═══════════*
@@ -103,6 +105,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}emparejar*
 *║├${prefix}top5*
 *║├${prefix}v_o_f*
+*║├${prefix}ttc*
 *║╰—————————*
 *╚═══════════*
 *╔═══════════*
@@ -196,9 +199,12 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}modofull* _[activador 1]_
 *║├${prefix}animeuwu* _[activador 2]_
 *║├${prefix}hmodo* _[activador 3]_
+*║├${prefix}antifakes* _[elimina números fakes]_
+*║├${prefix}antiestranjeros* _[elimina números estranjeros]_
 *║├${prefix}l* _[etiqueta multimedia]_
 *║├${prefix}.* _[etiqueta invisible]_
 *║├${prefix}buscamsj* _[busca un mensaje en el chat]_
+*║├${prefix}delttc* _[eliminar un desafio ]_
 *║╰————————————*
 *╚═══════════════*
 *╔═══════════════*
@@ -241,6 +247,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}emparejar* _[crear una pareja]_
 *║├${prefix}top5* _[crear tops]_
 *║├${prefix}v_o_f* _[verdad o falso]_
+*║├${prefix}ttc* _[tres en raya]_
 *║╰————————————*
 *╚═══════════════*
 *╔═══════════════*
@@ -503,6 +510,7 @@ exports.mascomandos = (prefix) => {
 ║➩ ❍ ${prefix}amongus
 ║➩ ❍ ${prefix}simi
 ║➩ ❍ ${prefix}voz
+║➩ ❍ ${prefix}audio
 ║➩ ❍ ${prefix}play
 ║➩ ❍ ${prefix}play2
 ║➩ ❍ ${prefix}youtube
@@ -932,8 +940,31 @@ exports.banearr = () => {
 exports.sexy7w7 = () => {
   return `Sexy El Que Lo Lea 7w7r`
 }
-exports.infobot = (execc, apodox, servery, browserr, conectin, procesor, celular, osversi, modelo, memory, infomcc, infomnc, wasapv) => {
-  return `》 *BOT : (activo)* 《    ‏  ‌    ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‏  ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌\n┏─━─━━─━─━━─━─┓\n┣➪ *Tiempo de ejecucion : _${execc}_*\n┣➪ *Version del bot : _5.0.0_*\n┣➪ *Apodo en Whatsapp : _${apodox}_*\n┣➪ *Servidor Web Whatsapp : _${servery}/Baileys_*\n┣➪ *Buscador : _${browserr}_*\n┣➪ *Velocidad de conexion: _${conectin}_*\n┣➪ *Velocidad de procesamiento : _${procesor}_*\n*EJECUTANDOSE DESDE*\n┣➪ *Dispositivo: _${celular}_*\n┣➪ *Version del sistema Operatico OS : _${osversi}_*\n┣➪ *Modelo del dispositivo : _${modelo}_*\n┣➪ *RAM : Usado _${memory}_*\n┣➪ *MCC código de país del móvil : _${infomcc}_*\n┣➪ *MNC Código de red móvil : _${infomnc}_*\n┣➪ *Version de Whatsapp : _${wasapv}_*\n┗─━─━ 「 ✵ 」━━─━─┛\n⇝ *NK-BOT* \n➣ _*Un bot simple, inicialmente creado para un tema otaku/anime, base original de Mhankbarbar(crack UwU)*_\nModos de conexion: con paquete de MBS o con promocion de Whatsapp\n▪︎ ~Fecha de inicio: 2020/09/01~`
+exports.infobot = (execc, apodox, servery, browserr, conectin, procesor, celular, osversi, modelo, memory, infomcc, infomnc, wasapv, hitshoy, misgp, mispriv, mischat, osarch, myhost) => {
+  return `》 *BOT : (activo)* 《    ‏  ‌    ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‏  ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌
+┏─━─━━─━─━━─━─┓
+┣➪ *Version del bot : _5.0.0_*
+┣➪ *Hits de hoy : _${hitshoy}_*
+┣➪ *Tiempo de ejecucion : _${execc}_*
+┣➪ *Total de chats : _${mischat}_*
+┣➪ *Grupos chat : _${misgp}_*
+┣➪ *Chat privados : _${mispriv}_*
+┣➪ *Apodo en Whatsapp : _${apodox}_*
+┣➪ *Servidor Web Whatsapp : _${servery}/Baileys_*
+┣➪ *Buscador : _${browserr}_*
+┣➪ *Velocidad de conexion: _${conectin}_*
+┣➪ *Velocidad de procesamiento : _${procesor}_*
+*EJECUTANDOSE DESDE*
+┣➪ *Dispositivo: _${celular}_*
+┣➪ *Version del sistema Operatico OS : _${osversi}_*
+┣➪ *Modelo del dispositivo : _${modelo}_*
+┣➪ *Plataforma : _${osarch}_*
+┣➪ *Host : _${myhost}_*
+┣➪ *RAM : Usado _${memory}_*
+┣➪ *MCC código de país del móvil : _${infomcc}_*
+┣➪ *MNC Código de red móvil : _${infomnc}_*
+┣➪ *Version de Whatsapp : _${wasapv}_*
+┗─━─━ 「 ✵ 」━━─━─┛\n⇝ *NK-BOT* \n➣ _*Un bot simple, inicialmente creado para un tema otaku/anime, base original de Mhankbarbar(crack UwU)*_\nModos de conexion: con paquete de MBS o con promocion de Whatsapp\n▪︎ ~Fecha de inicio: 2020/09/01~`
 }
 exports.animes = () => {
   return `*[ ! ] Modo anime ta apagado >_<*`
