@@ -2,7 +2,7 @@ const fs = require('fs')
 const toMs = require('ms')
 
 /**
- * Add user to bannedList database
+ * Add user to bannedList datauser
  * @param {String} userId
  * @param {String} expired
  * @param {Object} _data

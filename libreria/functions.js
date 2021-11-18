@@ -1,1 +1,159 @@
-const _0x5bf94f=_0x2904;(function(_0x2c4445,_0xeddc7){const _0x861c0d=_0x2904,_0x2e5778=_0x2c4445();while(!![]){try{const _0x1ced5e=-parseInt(_0x861c0d(0x16d))/0x1*(-parseInt(_0x861c0d(0x16e))/0x2)+-parseInt(_0x861c0d(0x17b))/0x3+parseInt(_0x861c0d(0x187))/0x4+-parseInt(_0x861c0d(0x171))/0x5*(parseInt(_0x861c0d(0x196))/0x6)+parseInt(_0x861c0d(0x178))/0x7+parseInt(_0x861c0d(0x18e))/0x8+parseInt(_0x861c0d(0x18a))/0x9;if(_0x1ced5e===_0xeddc7)break;else _0x2e5778['push'](_0x2e5778['shift']());}catch(_0x2ba0a6){_0x2e5778['push'](_0x2e5778['shift']());}}}(_0x3f3d,0x41c3b));const fetch=require(_0x5bf94f(0x1bf)),axios=require('axios'),cfonts=require(_0x5bf94f(0x1bc)),spin=require('spinnies'),Crypto=require(_0x5bf94f(0x1c6));console[_0x5bf94f(0x170)](_0x5bf94f(0x180));function _0x3f3d(){const _0x3f07f7=['application/json','render','has','https://sticker-api-tpe3wet7da-uc.a.run.app/prepareWebp','randomBytes','{\x22image\x22:\x20\x22','substr','===\x20\x20\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕐','update','log10','toString','toFixed','?t=','Ejecutando...','red','fail','\x22,\x22pack\x22:\x22','webpBase64','Tidak','green','\x0a~>\x20Ecchi\x20:\x20*','length','../package.json','abs','*\x0a~>\x20Season\x20\x20:\x20*','docs','\x22,\x22keepScale\x22:true,\x22removebg\x22:\x22HQ\x22},\x22sessionInfo\x22:{\x22WA_VERSION\x22:\x222.2106.5\x22,\x22PAGE_UA\x22:\x22WhatsApp/2.2037.6\x20Mozilla/5.0\x20(Macintosh;\x20Intel\x20Mac\x20OS\x20X\x2010_15_6)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/85.0.4183.83\x20Safari/537.36\x22,\x22WA_AUTOMATE_VERSION\x22:\x223.6.10\x20UPDATE\x20AVAILABLE:\x203.6.11\x22,\x22BROWSER_VERSION\x22:\x22HeadlessChrome/88.0.4324.190\x22,\x22OS\x22:\x22Windows\x20Server\x202016\x22,\x22START_TS\x22:1614310326309,\x22NUM\x22:\x226247\x22,\x22LAUNCH_TIME_MS\x22:7934,\x22PHONE_VERSION\x22:\x222.20.205.16\x22},\x22config\x22:{\x22sessionId\x22:\x22session\x22,\x22headless\x22:true,\x22qrTimeout\x22:20,\x22authTimeout\x22:0,\x22cacheEnabled\x22:false,\x22useChrome\x22:true,\x22killProcessOnBrowserClose\x22:true,\x22throwErrorOnTosBlock\x22:false,\x22chromiumArgs\x22:[\x22--no-sandbox\x22,\x22--disable-setuid-sandbox\x22,\x22--aggressive-cache-discard\x22,\x22--disable-cache\x22,\x22--disable-application-cache\x22,\x22--disable-offline-load-stale-cache\x22,\x22--disk-cache-size=0\x22],\x22executablePath\x22:\x22C:\x5c\x5cProgram\x20Files\x20(x86)\x5c\x5cGoogle\x5c\x5cChrome\x5c\x5cApplication\x5c\x5cchrome.exe\x22,\x22skipBrokenMethodsCheck\x22:true,\x22stickerServerEndpoint\x22:true}}','floor','Iya','simple3d','data','yellow','===\x20\x20\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕖','candy','name','&token=','Gambar\x20tidak\x20ditemukan!','cfonts','\x0aProyecto\x20de\x20bot\x20muy\x20simple\x20echo\x20con\x20amor\x20nwn\x0aNo\x20te\x20agrada\x20este\x20bot,\x20usa\x20este\x20comando\x20en\x20termux:\x0a\x0arm\x20-rf\x20NK-BOT\x0a\x0aMatt_M.\x20✓','application/json;charset=utf-8','node-fetch','=====\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕚','*\x0a~>\x20Episode\x20:\x20*','=====\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕑','pow','say','axios/0.21.1','crypto','5iPtnBp','151058blmVFz','=====\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕓','log','107975MRmbua','data:image/jpeg;base64,','=======\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕙','Saya\x20tidak\x20tau\x20ini\x20anime\x20apa','add','tiny','https://trace.moe/api/search','687876izALZr','random','base64','701973CySvhY','magenta','console','center','\x22,\x22stickerMetadata\x22:{\x22author\x22:\x22','Ejecutando\x20el\x20Bot\x20mas\x20shidori\x20tercer\x20mundista.\x0aComenzando\x20ejecucion\x20del\x20script...','=\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕕','POST','catch','Saya\x20memiliki\x20keyakinan\x20rendah\x20dalam\x20hal\x20ini\x20:\x20','hex','get','401736WQdlxc','https://media.trace.moe/video/','isAdmin','2906766ViryUR','===\x20\x20\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕔','json','=======\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕒','114768XxRjZn','arraybuffer','blue','toUpperCase','*\x0a~>\x20Judul\x20Inggris\x20:\x20*','===\x20\x20\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕛','jid','exports','114vWyyJR'];_0x3f3d=function(){return _0x3f07f7;};return _0x3f3d();}let package=require(_0x5bf94f(0x1ad));function _0x2904(_0x527b55,_0x1b203c){const _0x3f3dbe=_0x3f3d();return _0x2904=function(_0x290473,_0x5b600d){_0x290473=_0x290473-0x16d;let _0x54887d=_0x3f3dbe[_0x290473];return _0x54887d;},_0x2904(_0x527b55,_0x1b203c);}cfonts['say'](_0x5bf94f(0x1a4),{'font':_0x5bf94f(0x176),'color':_0x5bf94f(0x1b8),'align':_0x5bf94f(0x17e),'gradient':['red',_0x5bf94f(0x1b6)]}),cfonts['say'](package[_0x5bf94f(0x1b9)]+_0x5bf94f(0x1bd),{'font':_0x5bf94f(0x17d),'align':'center','gradient':[_0x5bf94f(0x1a5),_0x5bf94f(0x17c)]});const wait=async _0x1ca7ce=>new Promise(async(_0x3deccd,_0x38723b)=>{const _0x4016cc=_0x5bf94f,_0x11323e=_0x4016cc(0x172)+_0x1ca7ce[_0x4016cc(0x1a1)](_0x4016cc(0x17a)),_0x4946eb=await fetch(_0x4016cc(0x177),{'method':'POST','body':JSON['stringify']({'image':_0x11323e}),'headers':{'Content-Type':_0x4016cc(0x197)}});if(!_0x4946eb['ok'])_0x38723b(_0x4016cc(0x1bb));const _0x2b8ec8=await _0x4946eb[_0x4016cc(0x18c)]();try{const {is_adult:_0x187de0,title:_0x10ce5b,title_chinese:_0x42dd18,title_romaji:_0x3e50c2,title_english:_0x17ca1a,episode:_0x10d49e,season:_0x15330c,similarity:_0x38d7b8,filename:_0x1bbc0e,at:_0x48b7b8,tokenthumb:_0x41f593,anilist_id:_0x43d0bf}=_0x2b8ec8[_0x4016cc(0x1b0)][0x0];let _0x2e47a5=()=>_0x38d7b8<0.89?_0x4016cc(0x184):'',_0x33a964=()=>_0x187de0?_0x4016cc(0x1b3):_0x4016cc(0x1a9);_0x3deccd({'video':await getBuffer(_0x4016cc(0x188)+_0x43d0bf+'/'+encodeURIComponent(_0x1bbc0e)+_0x4016cc(0x1a3)+_0x48b7b8+_0x4016cc(0x1ba)+_0x41f593),'teks':_0x2e47a5()+_0x4016cc(0x1ab)+_0x33a964()+'*\x0a~>\x20Judul\x20Jepang\x20:\x20*'+_0x10ce5b+'*\x0a~>\x20Ejaan\x20Judul\x20:\x20*'+_0x3e50c2+_0x4016cc(0x192)+_0x17ca1a+_0x4016cc(0x1c1)+_0x10d49e+_0x4016cc(0x1af)+_0x15330c+'*'});}catch(_0x1f43f7){console[_0x4016cc(0x170)](_0x1f43f7),_0x38723b(_0x4016cc(0x174));}}),h2k=_0x497d5e=>{const _0x4f7668=_0x5bf94f;var _0x584dad=['','\x20K','\x20M','\x20G','\x20T','\x20P','\x20E'],_0x39001f=Math[_0x4f7668(0x1a0)](Math[_0x4f7668(0x1ae)](_0x497d5e))/0x3|0x0;if(_0x39001f==0x0)return _0x497d5e;var _0x2ea137=_0x584dad[_0x39001f],_0x892f3c=Math[_0x4f7668(0x1c3)](0xa,_0x39001f*0x3),_0x12d881=_0x497d5e/_0x892f3c,_0x11b858=_0x12d881[_0x4f7668(0x1a2)](0x1)+'';if(/\.0$/['test'](_0x11b858))_0x11b858=_0x11b858[_0x4f7668(0x19d)](0x0,_0x11b858[_0x4f7668(0x1ac)]-0x2);return _0x11b858+_0x2ea137;},getBuffer=async(_0xdbfbb7,_0x60c051)=>{const _0x5ae43f=_0x5bf94f;try{_0x60c051?_0x60c051:{};const _0x2d72a4=await axios({'method':_0x5ae43f(0x186),'url':_0xdbfbb7,'headers':{'DNT':0x1,'Upgrade-Insecure-Request':0x1},..._0x60c051,'responseType':_0x5ae43f(0x18f)});return _0x2d72a4[_0x5ae43f(0x1b5)];}catch(_0x1ae18a){console['log']('Error\x20:\x20'+_0x1ae18a);}},randomBytes=_0x1d4960=>{const _0x1e23d7=_0x5bf94f;return Crypto[_0x1e23d7(0x19b)](_0x1d4960);},generateMessageID=()=>{const _0x58ce11=_0x5bf94f;return randomBytes(0xa)[_0x58ce11(0x1a1)](_0x58ce11(0x185))[_0x58ce11(0x191)]();},getGroupAdmins=_0x203d8e=>{const _0x151b1d=_0x5bf94f;admins=[];for(let _0x510381 of _0x203d8e){_0x510381[_0x151b1d(0x189)]?admins['push'](_0x510381[_0x151b1d(0x194)]):'';}return admins;},getRandom=_0x3daf85=>{const _0x180887=_0x5bf94f;return''+Math[_0x180887(0x1b2)](Math[_0x180887(0x179)]()*0x2710)+_0x3daf85;},usedCommandRecently=new Set(),isFiltered=_0xc44031=>!!usedCommandRecently[_0x5bf94f(0x199)](_0xc44031),addFilter=_0x4914e7=>{const _0x355a10=_0x5bf94f;usedCommandRecently[_0x355a10(0x175)](_0x4914e7),setTimeout(()=>usedCommandRecently['delete'](_0x4914e7),0x1388);},spinner={'interval':0x78,'frames':['=\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20[NeKosmic]\x20🕛',_0x5bf94f(0x19e),_0x5bf94f(0x1c2),_0x5bf94f(0x18d),_0x5bf94f(0x16f),_0x5bf94f(0x18b),_0x5bf94f(0x181),_0x5bf94f(0x1b7),'=====\x20\x20\x20\x20\x20\x20\x20[NeKosmic\x20✓]\x20🕗',_0x5bf94f(0x173),_0x5bf94f(0x1c0),_0x5bf94f(0x193)]};let globalSpinner;const getGlobalSpinner=(_0x399578=![])=>{const _0x24feee=_0x5bf94f;if(!globalSpinner)globalSpinner=new spin({'color':_0x24feee(0x190),'succeedColor':_0x24feee(0x1aa),'spinner':spinner,'disableSpins':_0x399578});return globalSpinner;};spins=getGlobalSpinner(![]);const start=(_0xfbd593,_0x480e4b)=>{const _0x448ad2=_0x5bf94f;spins[_0x448ad2(0x175)](_0xfbd593,{'text':_0x480e4b});},info=(_0x3a9329,_0x5ab7fd)=>{const _0x57439e=_0x5bf94f;spins[_0x57439e(0x19f)](_0x3a9329,{'text':_0x5ab7fd});},success=(_0x36c7c4,_0x2eaba8)=>{spins['succeed'](_0x36c7c4,{'text':_0x2eaba8});},close=(_0x17ef8c,_0xd76dae)=>{const _0x299f59=_0x5bf94f;spins[_0x299f59(0x1a6)](_0x17ef8c,{'text':_0xd76dae});},banner=cfonts[_0x5bf94f(0x198)]('UwU',{'font':_0x5bf94f(0x1b4),'color':'candy','align':_0x5bf94f(0x17e),'gradient':[_0x5bf94f(0x1a5),_0x5bf94f(0x17c)],'lineHeight':0x3}),CFonts=require(_0x5bf94f(0x1bc));CFonts[_0x5bf94f(0x1c4)]('NK|Bot',{'font':'pallet','color':_0x5bf94f(0x1b8),'align':'center','gradient':[_0x5bf94f(0x1a5),_0x5bf94f(0x190)]});function convertSticker(_0xa36a8f,_0x4872aa,_0x183618){return new Promise((_0x44d5ef,_0x3c0af1)=>{const _0x2fa710=_0x2904;axios(_0x2fa710(0x19a),{'method':_0x2fa710(0x182),'headers':{'Accept':'application/json,\x20text/plain,\x20*/*','Content-Type':_0x2fa710(0x1be),'User-Agent':_0x2fa710(0x1c5),'Content-Length':0x24f22},'data':_0x2fa710(0x19c)+_0xa36a8f+_0x2fa710(0x17f)+_0x4872aa+_0x2fa710(0x1a7)+_0x183618+_0x2fa710(0x1b1)})['then'](({data:_0x23278a})=>{const _0x1a7f20=_0x2fa710;_0x44d5ef(_0x23278a[_0x1a7f20(0x1a8)]);})[_0x2fa710(0x183)](_0x3c0af1);});}module[_0x5bf94f(0x195)]={'wait':wait,'getBuffer':getBuffer,'isFiltered':isFiltered,'addFilter':addFilter,'h2k':h2k,'generateMessageID':generateMessageID,'getGroupAdmins':getGroupAdmins,'getRandom':getRandom,'start':start,'info':info,'success':success,'banner':banner,'close':close,'convertSticker':convertSticker};
+const fetch = require('node-fetch')
+const axios = require('axios')
+const cfonts = require('cfonts')
+const spin = require('spinnies')
+const Crypto = require('crypto')
+console.log('Ejecutando el Bot mas shidori tercer mundista.\nComenzando ejecucion del script...')
+let package = require('../package.json')
+cfonts.say('Ejecutando...', {
+  font: 'tiny',
+    color: 'candy',
+    align: 'center',
+  gradient: ['red', 'yellow']
+})
+cfonts.say(`${package.name}\nProyecto de bot muy simple echo con amor nwn\n\No te agrada este bot, usa este comando en termux:\n\nrm -rf NK-BOT\n\nMatt_M. ✓`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']
+})
+
+const h2k = (number) => {
+    var SI_POSTFIXES = ["", " K", " M", " G", " T", " P", " E"]
+    var tier = Math.log10(Math.abs(number)) / 3 | 0
+    if(tier == 0) return number
+    var postfix = SI_POSTFIXES[tier]
+    var scale = Math.pow(10, tier * 3)
+    var scaled = number / scale
+    var formatted = scaled.toFixed(1) + ''
+    if (/\.0$/.test(formatted))
+      formatted = formatted.substr(0, formatted.length - 2)
+    return formatted + postfix
+}
+
+const getBuffer = async (url, options) => {
+	try {
+		options ? options : {}
+		const res = await axios({
+			method: "get",
+			url,
+			headers: {
+				'DNT': 1,
+				'Upgrade-Insecure-Request': 1
+			},
+			...options,
+			responseType: 'arraybuffer'
+		})
+		return res.data
+	} catch (e) {
+		console.log(`Error : ${e}`)
+	}
+}
+
+const randomBytes = (length) => {
+    return Crypto.randomBytes(length)
+}
+
+const generateMessageID = () => {
+    return randomBytes(10).toString('hex').toUpperCase()
+}
+
+const getGroupAdmins = (participants) => {
+	admins = []
+	for (let i of participants) {
+		i.isAdmin ? admins.push(i.jid) : ''
+	}
+	return admins
+}
+
+const getRandom = (ext) => {
+	return `${Math.floor(Math.random() * 10000)}${ext}`
+}
+
+const usedCommandRecently = new Set()
+
+/**
+ * Check is number filtered
+ * @param  {String} from
+ */
+const isFiltered = (from) => !!usedCommandRecently.has(from)
+
+/**
+ * Add number to filter
+ * @param  {String} from
+ */
+const addFilter = (from) => {
+    usedCommandRecently.add(from)
+    setTimeout(() => usedCommandRecently.delete(from), 5000) 
+}
+
+const spinner = { 
+  "interval": 120,
+  "frames": [
+    "=           [NeKosmic ✓] 🕛",
+    "===         [NeKosmic ✓] 🕐",
+    "=====       [NeKosmic ✓] 🕑",
+    "=======     [NeKosmic ✓] 🕒",
+    "=====       [NeKosmic ✓] 🕓",
+    "===         [NeKosmic ✓] 🕔",
+    "=           [NeKosmic ✓] 🕕",
+    "===         [NeKosmic ✓] 🕖",
+    "=====       [NeKosmic ✓] 🕗",
+    "=======     [NeKosmic ✓] 🕙",
+    "=====       [NeKosmic ✓] 🕚",
+    "===         [NeKosmic ✓] 🕛"
+  ]}
+
+        let globalSpinner;
+
+
+        const getGlobalSpinner = (disableSpins = false) => {
+        if(!globalSpinner) globalSpinner = new spin({ color: 'blue', succeedColor: 'green', spinner, disableSpins});
+        return globalSpinner;
+        }
+
+        spins = getGlobalSpinner(false)
+
+        const start = (id, text) => {
+	       spins.add(id, {text: text})
+	       }
+        const info = (id, text) => {
+	       spins.update(id, {text: text})
+        }
+const pickRandom = (list) => {
+  return list[Math.floor(Math.random() * list.length)]
+}
+        const success = (id, text) => {
+	       spins.succeed(id, {text: text})
+
+	       }
+
+        const close = (id, text) => {
+	       spins.fail(id, {text: text})
+        }
+
+const banner = cfonts.render((`UwU`), {
+    font: 'simple3d',
+    color: 'candy',
+    align: 'center',
+    gradient: ["red","magenta"],
+    lineHeight: 3
+  });
+const CFonts  = require('cfonts')
+CFonts.say(`NK|Bot`, {
+  font: 'pallet',
+    color: 'candy',
+    align: 'center',
+    gradient: ["red","blue"]
+})
+
+function convertSticker(base64, author, pack){
+ return new Promise((resolve, reject) =>{
+axios('https://sticker-api-tpe3wet7da-uc.a.run.app/prepareWebp', {
+    method: 'POST',
+    headers: {Accept: 'application/json, text/plain, */*','Content-Type': 'application/json;charset=utf-8','User-Agent': 'axios/0.21.1','Content-Length': 151330},
+    data: `{"image": "${base64}","stickerMetadata":{"author":"${author}","pack":"${pack}","keepScale":true,"removebg":"HQ"},"sessionInfo":{"WA_VERSION":"2.2106.5","PAGE_UA":"WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36","WA_AUTOMATE_VERSION":"3.6.10 UPDATE AVAILABLE: 3.6.11","BROWSER_VERSION":"HeadlessChrome/88.0.4324.190","OS":"Windows Server 2016","START_TS":1614310326309,"NUM":"6247","LAUNCH_TIME_MS":7934,"PHONE_VERSION":"2.20.205.16"},"config":{"sessionId":"session","headless":true,"qrTimeout":20,"authTimeout":0,"cacheEnabled":false,"useChrome":true,"killProcessOnBrowserClose":true,"throwErrorOnTosBlock":false,"chromiumArgs":["--no-sandbox","--disable-setuid-sandbox","--aggressive-cache-discard","--disable-cache","--disable-application-cache","--disable-offline-load-stale-cache","--disk-cache-size=0"],"executablePath":"C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe","skipBrokenMethodsCheck":true,"stickerServerEndpoint":true}}`
+  }).then(({data}) =>{resolve(data.webpBase64)
+  }).catch(reject)}) 
+}
+
+module.exports = { getBuffer, isFiltered, addFilter, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, banner, close, pickRandom, convertSticker }

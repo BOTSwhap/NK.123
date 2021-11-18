@@ -67,7 +67,7 @@ function Text2Speech(_lang, _debug) {
   lang = lang.toLowerCase();
 
   if (!LANGUAGES[lang])
-    throw new Error('Language not supported: ' + lang);
+    throw new Error('Lenguaje no soportado: ' + lang);
 
   var getArgs = getArgsFactory(lang);
 
@@ -139,7 +139,7 @@ function getArgsFactory(lang){
 function tokenize(text) {
   var text_parts = [];
   if (!text)
-    throw new Error('No text to speak');
+    throw new Error('Sin texto, no hay audio');
 
   var punc = '¡!()[]¶;|°•—«»≤≥«»‹›\n ';
   var punc_list = punc.split('').map(function(char) {
