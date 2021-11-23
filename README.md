@@ -17,6 +17,8 @@
 ⚡Un bot muy simple para whatsapp :D
 
 </p>
+
+</details>  
 ## Características del bot 
 |  Funciones y comandos  |                                   Sip |
 | :---------------------------------------------: | :-----------: |
@@ -30,7 +32,7 @@
 | Modo NSFW|✔️|
 | Descarga de música|✔️|
 | Mas de 100 comandos |✓|
-
+</p>
 ## Instalacion
 Para nuevos desde cero en termux:
 ```bash
