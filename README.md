@@ -27,10 +27,11 @@
 | Anti-Fakes|✔️|
 | Anti-Estranjeros|✔️|
 | Creador de logos|✔️|
+| Juegos|✔️|
 | Modo Publico/Privado|✔️|
 | Modo NSFW|✔️|
 | Descarga de música|✔️|
-| Mas de 100 comandos |✓|
+| Mas de 100 comandos Funcionales|✓|
 
 ## Instalacion
 Para nuevos desde cero en termux:
