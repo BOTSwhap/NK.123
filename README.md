@@ -64,7 +64,7 @@ Para detener al bot en termux
 +51 995 386 439
 ```
 ## Partes donde puedes editar tu info :v
-- Edicion de tu numero, nombre del bot... [Esta direccion](https://github.com/NeKosmic/NK-BOT/blob/main/informaci%C3%B3n.json)
+- Edicion de tu numero, nombre del bot... [Esta direccion](https://github.com/NeKosmic/NK-BOT/blob/main/informacion.json)
 
 ### Editar info del bot
 
