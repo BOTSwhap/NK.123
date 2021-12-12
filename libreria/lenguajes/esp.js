@@ -51,6 +51,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}invocar4*
 *║├${prefix}ascender*
 *║├${prefix}degradar*
+*║├${prefix}nivelear*
 *║├${prefix}banchat*
 *║├${prefix}antilink*
 *║├${prefix}antilink2*
@@ -121,7 +122,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}admins*
 *║├${prefix}grupolink*
 *║├${prefix}ia_void*
-*║├${prefix}estado*
+*║├${prefix}estadobot*
 *║├${prefix}frase*
 *║├${prefix}miperfil*
 *║╰—————————*
@@ -192,6 +193,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}invocar4* _[etiqueta a todos]_
 *║├${prefix}ascender* _[convertir a administrador]_
 *║├${prefix}degradar* _[quitar administracion]_
+*║├${prefix}nivelear* _[activar niveles]_
 *║├${prefix}banchat* _[banear un chat]_
 *║├${prefix}antilink* _[anti-link normal]_
 *║├${prefix}antilink2* _[anti-link multiple]_
@@ -222,6 +224,8 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}quitarbaneo* _[quitar baneo]_
 *║||| ~MODO KUAKER~ |||*
 *║[ ! ] Simples traba grupo nwn [ ! ]*
+*║ ~PSDT- Estos comandos son de virustraba~*
+*║ ~ten cuidado al usarlos~*
 *║├${prefix}c1* _[grupo crash 1]_
 *║├${prefix}c2* _[grupo crash 2]_
 *║├${prefix}c3* _[grupo crash 3]_
@@ -263,7 +267,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}admins* _[administradores del grupo]_
 *║├${prefix}grupolink* _[link del grupo]_
 *║├${prefix}ia_void* _[textvoid mucho texto]_
-*║├${prefix}estado* _[mini anecdotas]_
+*║├${prefix}estadobot _[ver el estado del bot]_
 *║├${prefix}frase* _[frases random]_
 *║├${prefix}miperfil* _[tu perfil]_
 *║╰————————————*
@@ -307,7 +311,7 @@ exports.menunsfw = (prefix) => {
 ║➩ ❍ ${prefix}solog
 ║➩ ❍ ${prefix}feetg
 ║➩ ❍ ${prefix}lewdk
-║➩ ❍ ${prefix}pussy
+║➩ ❍ ${prefix}pussy_jpg
 ║➩ ❍ ${prefix}femdom
 ║➩ ❍ ${prefix}cuddle
 ║➩ ❍ ${prefix}hwaifu
@@ -544,7 +548,6 @@ exports.mascomandos = (prefix) => {
 ║➩ ❍ ${prefix}fakedonald
 ║➩ ❍ ${prefix}minidatos
 ║➩ ❍ ${prefix}frasesamor
-║➩ ❍ ${prefix}estadoxd
 ║➩ ❍ ${prefix}miname
 ╚══════════════╝
 𝙿𝚘𝚛 𝚎𝚕 𝚕𝚒𝚖𝚒𝚝𝚊𝚍𝚘 𝚙𝚛𝚘𝚌𝚎𝚜𝚊𝚖𝚒𝚎𝚗𝚝𝚘 𝚍𝚎 𝚕𝚘𝚜 𝚖𝚘𝚟𝚒𝚕𝚎𝚜, 𝚙𝚞𝚎𝚍𝚎 𝚚𝚞𝚎 𝚊𝚕𝚐𝚞𝚗𝚊𝚜 𝚒𝚖𝚊𝚐𝚎𝚗𝚎𝚜 𝚗𝚘 𝚜𝚎𝚊𝚗 𝚙𝚛𝚘𝚌𝚎𝚜𝚊𝚍𝚊𝚜 𝚍𝚎 𝚖𝚊𝚗𝚎𝚛𝚊 𝚌𝚘𝚛𝚛𝚎𝚌𝚝𝚊 𝚢 𝚗𝚘 𝚛𝚎𝚌𝚒𝚋𝚊𝚗 𝚗𝚊𝚍𝚊 𝚍𝚎 𝚋𝚘𝚝
