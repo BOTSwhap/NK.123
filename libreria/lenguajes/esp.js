@@ -78,6 +78,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}bc*
 *║├${prefix}modo1*
 *║├${prefix}modo2*
+*║├${prefix}leerchat*
 *║├${prefix}antidel*
 *║├${prefix}banear*
 *║├${prefix}quitarbaneo*
@@ -223,6 +224,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}bc* _[transmitir un mensaje]_
 *║├${prefix}modo1* _[modo privado/publico]_
 *║├${prefix}modo2* _[modo enlinea/sinlinea]_
+*║├${prefix}leerchat* _[leer chats automáticamente]_
 *║├${prefix}antidel* _[anti eliminar]_
 *║├${prefix}banear* _[banear a un cliente]_
 *║├${prefix}quitarbaneo* _[quitar baneo]_
