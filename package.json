@@ -55,8 +55,7 @@
     "seedrandom": "^3.0.5",
     "spinnies": "^0.5.1",
     "util": "^0.12.4",
-    "webp-converter": "^2.3.3",
-    "yt-search": "^2.7.6"
+    "webp-converter": "^2.3.3"
   },
   "engines": {
     "node": "v17.1.0",
