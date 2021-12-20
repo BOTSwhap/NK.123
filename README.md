@@ -9,7 +9,7 @@
 <a href="#"><img title="termux-bot-wa" src="https://img.shields.io/badge/-TERMUX--BOT--WA-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/NeKosmic"><img title="Autor" src="https://img.shields.io/badge/Autor-Matt-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/NeKosmic"><img title="Autor" src="https://img.shields.io/badge/Autor-Matt_M-orange?style=for-the-badge&logo=github"></a>
 </p>
  
 </details>
@@ -30,7 +30,7 @@
 | Juegos|✔️|
 | Modo Publico/Privado|✔️|
 | Modo NSFW|✔️|
-| Descarga de música|✔️|
+| Descarga de música/videos|✔️|
 | Mas de 100 comandos Funcionales|✓|
 
 ## Instalacion
@@ -56,9 +56,9 @@ Para nuevos desde cero en termux:
 > git clone https://github.com/NeKosmic/NK-BOT 
 > cd NK-BOT
 > bash install.sh
-> npm start/node nkbot.js 
+> npm start
 Para detener al bot en termux
-> Ctrl+c/Ctrl+z
+> Ctrl+z
 
 ⚡Si necesitas mas ayuda puedes contactarme 
 +51 995 386 439
