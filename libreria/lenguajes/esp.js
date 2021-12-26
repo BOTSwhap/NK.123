@@ -60,6 +60,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}animeuwu*
 *║├${prefix}hmodo*
 *║├${prefix}antifakes*
+*║├${prefix}antifakes2*
 *║├${prefix}antiestranjeros*
 *║├${prefix}l*
 *║├${prefix}.*
@@ -206,6 +207,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}animeuwu* _[activador 2]_
 *║├${prefix}hmodo* _[activador 3]_
 *║├${prefix}antifakes* _[elimina números fakes]_
+*║├${prefix}antifakes2* _[elimina numeros +1 ]_
 *║├${prefix}antiestranjeros* _[elimina números estranjeros]_
 *║├${prefix}l* _[etiqueta multimedia]_
 *║├${prefix}.* _[etiqueta invisible]_
