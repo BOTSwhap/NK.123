@@ -28,6 +28,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}acelerarvid*
 *║├${prefix}lentovid*
 *║├${prefix}reversavid*
+*║├${prefix}amp3*
 *║├${prefix}inframundo*
 *║├${prefix}happyhardcore*
 *║├${prefix}ardilla*
@@ -45,6 +46,14 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║ _CMDS ADMINS :_*
 *║╭—————————*
 *║├${prefix}deathnote*
+*║├${prefix}cgpen*
+*║├${prefix}agp*
+*║├${prefix}editnamegp*
+*║├${prefix}editdesgp*
+*║├${prefix}fotogrupo*
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
 *║├${prefix}invocar*
 *║├${prefix}invocar2*
 *║├${prefix}invocar3*
@@ -60,7 +69,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}animeuwu*
 *║├${prefix}hmodo*
 *║├${prefix}antifakes*
-*║├${prefix}antifakes2*
 *║├${prefix}antiestranjeros*
 *║├${prefix}l*
 *║├${prefix}.*
@@ -79,9 +87,15 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}bc*
 *║├${prefix}modo1*
 *║├${prefix}modo2*
-*║├${prefix}leerchat*
 *║├${prefix}antidel*
+*║├${prefix}leerchat*
 *║├${prefix}banear*
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}fotocloner*
+*║├${prefix}perfilbot*
 *║├${prefix}quitarbaneo*
 *║||| ~MODO KUAKER~ |||*
 *║├${prefix}c1*
@@ -115,10 +129,20 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *╔═══════════*
 *║ _OTROS CMDS :_*
 *║╭—————————*
+*║├${prefix}creador*
 *║├${prefix}nuebot*
 *║├${prefix}listnuebot*
 *║├${prefix}gruposwa*
 *║├${prefix}minivel*
+*║├${prefix}wame*
+*║├${prefix}infogrupo*
+*║├${prefix}grupocreador*
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
+*║├${prefix}
 *║├${prefix}tienda*
 *║├${prefix}tiendaimg*
 *║├${prefix}rescom*
@@ -207,7 +231,6 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}animeuwu* _[activador 2]_
 *║├${prefix}hmodo* _[activador 3]_
 *║├${prefix}antifakes* _[elimina números fakes]_
-*║├${prefix}antifakes2* _[elimina numeros +1 ]_
 *║├${prefix}antiestranjeros* _[elimina números estranjeros]_
 *║├${prefix}l* _[etiqueta multimedia]_
 *║├${prefix}.* _[etiqueta invisible]_
@@ -277,7 +300,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}admins* _[administradores del grupo]_
 *║├${prefix}grupolink* _[link del grupo]_
 *║├${prefix}ia_void* _[textvoid mucho texto]_
-*║├${prefix}estadobot _[ver el estado del bot]_
+*║├${prefix}estadobot* _[ver el estado del bot]_
 *║├${prefix}frase* _[frases random]_
 *║├${prefix}miperfil* _[tu perfil]_
 *║╰————————————*
@@ -531,6 +554,7 @@ exports.mascomandos = (prefix) => {
 ║➩ ❍ ${prefix}playvid
 ║➩ ❍ ${prefix}letra
 ║➩ ❍ ${prefix}randimg
+║➩ ❍ ${prefix}reconime
 ║➩ ❍ ${prefix}djbot
 ║➩ ❍ ${prefix}playstore
 ║➩ ❍ ${prefix}google
@@ -676,7 +700,7 @@ exports.stickerror = (prefix) => {
   return `*[ ! ] _Envie/Responda una imagen usando el texto ${prefix}sticker_*`
 }
 exports.voztext = (prefix) => {
-  return `*[ ! ] _Prefijo del idioma en el que desea escuchar el audio?_*\n\n_[✓] Use comando ${prefix}idiomas para ver los idiomas disponibles_`
+  return `*[ ! ] _Prefijo del idioma en el que desea escuchar el audio?_*\nEjemplo de uso: ${prefix}voz es hola\n\n_[✓] Use comando ${prefix}idiomas para ver los idiomas disponibles_`
 }
 exports.voztext2 = () => {
   return `*[ ! ] _Donde esta el texto?_*`
@@ -960,9 +984,9 @@ exports.infobot = (execc, apodox, servery, browserr, conectin, procesor, celular
 ┣➪ *Version del bot : _5.0.0_*
 ┣➪ *Hits de hoy : _${hitshoy}_*
 ┣➪ *Tiempo de ejecucion : _${execc}_*
-┣➪ *Total de chats : _${mischat}_*
+┣➪ *Chat privados : _${mischat}_*
 ┣➪ *Grupos chat : _${misgp}_*
-┣➪ *Chat privados : _${mispriv}_*
+┣➪ *Total de chats : _${mispriv}_*
 ┣➪ *Apodo en Whatsapp : _${apodox}_*
 ┣➪ *Servidor Web Whatsapp : _${servery}/Baileys_*
 ┣➪ *Buscador : _${browserr}_*
@@ -1050,13 +1074,13 @@ exports.niuperfil2 = () => {
   return `*Ahora tengo un nuevo perfil :3*`
 }
 exports.infogp = (nmGp, dcGp, admGp, itgGp) => {
-  return `*[[INFORMACIÓN DEL GRUPO]]*    ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‏  ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌   ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‏  ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌\n\n*Nombre actual del grupo* : ${nmGp}\n\n*Descripcion* : ${dcGp}\n\n*Total de administradores* : ${admGp} _AdminGods_\n\n*Total de integrantes* : ${itgGp} _Besto Integrantes UwU_`
+  return `*[[INFORMACIÓN DEL GRUPO]]*.    ‏  ‌    ‏  ‌.\n\n*Nombre actual del grupo* : ${nmGp}\n\n*Total de administradores* : ${admGp} _AdminGods_\n\n*Total de integrantes* : ${itgGp} _Besto Integrantes UwU_\n\n*Descripcion* : ${dcGp}`
 }
 exports.coowner = () => {
   return `*y actual dueño del bot*\n\n_Apoyale en sus redes sociales_ : `
 }
 exports.clonerr = (prefix) => {
-  return `*Etiquete a un contacto que quiere copiar su foto de perfil\n\n*EJEMPLO:* ${prefix}fotocloner @`
+  return `*Etiquete a un contacto que quiere copiar su foto de perfil*\n\n*EJEMPLO:*\n ${prefix}fotocloner @NumeroDeUsuario`
 }
 exports.clonerr2 = () => {
   return `*Etiqueta a un integrante del grupo!*`
