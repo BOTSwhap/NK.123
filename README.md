@@ -92,4 +92,4 @@ Para detener al bot en termux
 * <a href="https://github.com/MhankBarBar"><img alt="GitHub" src="https://img.shields.io/badge/MhankBarBar%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 ## Grupo de Test-Bot-WhatsApp
 
-* <a href="wa.me/51995386439text?=Wenas+,+necesito+ayuda+para+instalar+al+bot"><img alt="WhatsApp" src="https://img.shields.io/badge/Mi%20Numero-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="wa.me/51995386439"><img alt="WhatsApp" src="https://img.shields.io/badge/Mi%20Numero-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
