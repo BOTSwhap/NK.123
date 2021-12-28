@@ -91,5 +91,4 @@ Para detener al bot en termux
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 * <a href="https://github.com/MhankBarBar"><img alt="GitHub" src="https://img.shields.io/badge/MhankBarBar%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 </p>
-<p align="center"> 
-<a href="https://wa.me/51995386439text?=wenas uwu"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/51995386439text?=Wenas...+,+deseo+aprender+instalar+al+bot"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
