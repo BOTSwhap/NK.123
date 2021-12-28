@@ -51,9 +51,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}editnamegp*
 *║├${prefix}editdesgp*
 *║├${prefix}fotogrupo*
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
 *║├${prefix}invocar*
 *║├${prefix}invocar2*
 *║├${prefix}invocar3*
@@ -90,10 +87,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}antidel*
 *║├${prefix}leerchat*
 *║├${prefix}banear*
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
 *║├${prefix}fotocloner*
 *║├${prefix}perfilbot*
 *║├${prefix}quitarbaneo*
@@ -137,12 +130,6 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}wame*
 *║├${prefix}infogrupo*
 *║├${prefix}grupocreador*
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
-*║├${prefix}
 *║├${prefix}tienda*
 *║├${prefix}tiendaimg*
 *║├${prefix}rescom*
@@ -195,10 +182,10 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║╭————————————*
 *║├${prefix}sticker* _[convierte una imagen a sticker]_
 *║├${prefix}aimg* _[convierte un sticker a imagen]_
-*║├${prefix}lector* _[sacar texto de una imagen]_
 *║├${prefix}acelerarvid* _[aumentar velocidad de un vídeo]_
 *║├${prefix}lentovid* _[reducir velocidad de video]_
 *║├${prefix}reversavid* _[invierte un vídeo]_
+*║├${prefix}amp3* _[convierte video a audio]_
 *║├${prefix}inframundo* _[editor de audio]_
 *║├${prefix}happyhardcore* _[editor de audio]_
 *║├${prefix}ardilla* _[editor de audio]_
@@ -216,6 +203,11 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║ _CMDS ADMINS :_*
 *║╭————————————*
 *║├${prefix}deathnote* _[eliminacion random]_
+*║├${prefix}cgpen* _[cerrar grupo temporizado]_
+*║├${prefix}agp* _[abrir grupo]_
+*║├${prefix}editnamegp* _[cambiar nombre al grupo]_
+*║├${prefix}editdesgp* _[cambiar descripción]_
+*║├${prefix}fotogrupo* _[cambiar foto del grupo]_
 *║├${prefix}invocar* _[etiqueta a todos]_
 *║├${prefix}invocar2* _[etiqueta a todos]_
 *║├${prefix}invocar3* _[etiqueta a todos]_
@@ -231,11 +223,12 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}animeuwu* _[activador 2]_
 *║├${prefix}hmodo* _[activador 3]_
 *║├${prefix}antifakes* _[elimina números fakes]_
+*║├${prefix}antifakes2* _[eliminar números +1]_
 *║├${prefix}antiestranjeros* _[elimina números estranjeros]_
 *║├${prefix}l* _[etiqueta multimedia]_
 *║├${prefix}.* _[etiqueta invisible]_
 *║├${prefix}buscamsj* _[busca un mensaje en el chat]_
-*║├${prefix}delttc* _[eliminar un desafio ]_
+*║├${prefix}delttc* _[eliminar un desafio tictactoe]_
 *║╰————————————*
 *╚═══════════════*
 *╔═══════════════*
@@ -252,6 +245,8 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}leerchat* _[leer chats automáticamente]_
 *║├${prefix}antidel* _[anti eliminar]_
 *║├${prefix}banear* _[banear a un cliente]_
+*║├${prefix}fotocloner* _[foto de usuario al bot]_
+*║├${prefix}perfilbot* _[cambiar foto del bot]_
 *║├${prefix}quitarbaneo* _[quitar baneo]_
 *║||| ~MODO KUAKER~ |||*
 *║[ ! ] Simples traba grupo nwn [ ! ]*
@@ -292,6 +287,9 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}listnuebot* _[lista de bots]_
 *║├${prefix}gruposwa* _[grupos de WhatsApp]_
 *║├${prefix}minivel* _[ver tu nivel actual]_
+*║├${prefix}wame* _[link directo de tu número]_
+*║├${prefix}infogrupo* _[información del grupo]_
+*║├${prefix}grupocreador* _[Creador del grupo]_
 *║├${prefix}tienda* _[genera una tienda falsa]_
 *║├${prefix}tiendaimg* _[genera una tienda falsa]_
 *║├${prefix}rescom* _[copia comentario de una imagen]_
@@ -302,16 +300,16 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}ia_void* _[textvoid mucho texto]_
 *║├${prefix}estadobot* _[ver el estado del bot]_
 *║├${prefix}frase* _[frases random]_
-*║├${prefix}miperfil* _[tu perfil]_
+*║├${prefix}miperfil* _[info de tu perfil]_
 *║╰————————————*
 *╚═══════════════*
 *╔═══════════════*
-*║ _MAS COMANDOS :_*
+*║ _MAS COMANDOS EXTRA :_*
 *║╭————————————*
+*║├${prefix}randmenu* _[mas comandos]_
 *║├${prefix}labiblia* _[comandos H]_
 *║├${prefix}crealogos* _[comandos de logos]_
 *║├${prefix}animages* _[comandos anime]_
-*║├${prefix}randmenu* _[mas comandos]_
 *║╰————————————*
 *╚═══════════════*
 `
