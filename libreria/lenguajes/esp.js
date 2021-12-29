@@ -90,6 +90,7 @@ exports.panel = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol,
 *║├${prefix}fotocloner*
 *║├${prefix}perfilbot*
 *║├${prefix}quitarbaneo*
+*║├${prefix}mysession*
 *║||| ~MODO KUAKER~ |||*
 *║├${prefix}c1*
 *║├${prefix}c2*
@@ -248,6 +249,7 @@ exports.panel2 = (prefix, time, fechamex, fechabol, fechachi, fechaarg, fechacol
 *║├${prefix}fotocloner* _[foto de usuario al bot]_
 *║├${prefix}perfilbot* _[cambiar foto del bot]_
 *║├${prefix}quitarbaneo* _[quitar baneo]_
+*║├${prefix}mysession* _[código WaSession]_
 *║||| ~MODO KUAKER~ |||*
 *║[ ! ] Simples traba grupo nwn [ ! ]*
 *║ ~PSDT- Estos comandos son de virustraba~*
