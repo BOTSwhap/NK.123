@@ -49,7 +49,6 @@ Para nuevos desde cero en termux:
 > apt install ffmpeg && pkg install ffmpeg
 > apt install wget && pkg install wget
 
-⚡Si necesitas mas ayuda puedes contactarme :3 wa.me/+51995386439
 ```
 ## Despues de tener todos los packs instalados en termux solo usen estos comandos para comenzar
 ```bash
@@ -59,9 +58,26 @@ Para nuevos desde cero en termux:
 > npm start
 Para detener al bot en termux
 > Ctrl+z
+```
+## Para evitar caidas del bot metodo-termux
 
-⚡Si necesitas mas ayuda puedes contactarme 
-+51 995 386 439
+1.- instalar PM2 :
+```bash
+
+> npm i pm2 -g  
+```  
+
+2.- Ejecutar en PM2 :
+```bash 
+
+> pm2 start nkbot.js  
+> pm2 monit    
+```
+
+3.- Desactivar PM2 para el bot :
+```bash
+> pm2 kill    
+
 ```
 ## Partes donde puedes editar tu info :v
 - Edicion de tu numero, nombre del bot... [Esta direccion](https://github.com/NeKosmic/NK-BOT/blob/main/informacion.json)
@@ -92,6 +108,6 @@ Para detener al bot en termux
 * <a href="https://github.com/MhankBarBar"><img alt="GitHub" src="https://img.shields.io/badge/MhankBarBar%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 </p>
 
-## Mi número por si necesitas ayuda nwn
+## ⚡ Mi número por si necesitas ayuda nwn
 
 <a href="https://wa.me/51995386439?text=Wenas...+deseo+aprender+instalar+al+bot"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
