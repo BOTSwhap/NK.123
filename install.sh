@@ -12,6 +12,7 @@ apt-get install tesseract
 apt-get install nmap
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install
+npm i colors@1.4.0
 play audindex.mp3
 termimage datakawaii.png
 
