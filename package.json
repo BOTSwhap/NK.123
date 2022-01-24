@@ -57,10 +57,6 @@
     "util": "^0.12.4",
     "webp-converter": "^2.3.3"
   },
-  "engines": {
-    "node": "v17.1.0",
-    "npm": "8.1.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mhankbarbar/termux-wabot.git"
