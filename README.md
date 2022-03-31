@@ -70,7 +70,7 @@ Para detener al bot en termux
 2.- Ejecutar el bot en PM2 :
 ```bash 
 
-> pm2 start Quantum.js
+> pm2 start nkbot.js
 ```
 3.- Visualizar proceso en PM2 :
 ```bash 
