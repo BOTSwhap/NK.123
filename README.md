@@ -59,41 +59,30 @@ Para nuevos desde cero en termux:
 Para detener al bot en termux
 > Ctrl+z
 ```
-## Para evitar caidas del bot metodo-termux
+## Ejecutar el bot estable con PM2
 
-1.- instalar PM2 :
+1.- instalar PM2 en termux :
 ```bash
 
-> npm i pm2 -g  
+> npm install -g pm2
 ```  
 
-2.- Ejecutar en PM2 :
+2.- Ejecutar el bot en PM2 :
 ```bash 
 
-> pm2 start nkbot.js  
-> pm2 monit    
+> pm2 start Quantum.js
+```
+3.- Visualizar proceso en PM2 :
+```bash 
+
+> pm2 monit
+[ ! ] Para salir del monitor usa la combinación de CTRL + c
 ```
 
-3.- Desactivar PM2 para el bot :
+4.- Eliminar PM2 para el bot :
 ```bash
-> pm2 kill    
 
-```
-## Partes donde puedes editar tu info :v
-- Edicion de tu numero, nombre del bot... [Esta direccion](https://github.com/NeKosmic/NK-BOT/blob/main/informacion.json)
-
-### Editar info del bot
-
-```bash
-{
-    "prefijo": "PREFIJO PARA USAR LOS COMANDOS",
-    "botcontrolador": "NUMERO PRINCIPAL", (Su numero con el cual usaran al bot por completo),
-    "recreador": "NOMBRE DEL COCREADOR O SEGUNDO DUEÑO DEL BOT", (Pueden poner su nombre ú apodo ;v)
-    "vcardx": "NUMERO PRINCIPAL CON PREFIJO", (1. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51995386439"),
-    "vcardy": "NÚMERO PRINCIPAL CON PREFIJO", (2. Aqui poner su numero con el prefijo de su pais correspondiente, Ejm: "+51 995 386 439"),
-    "nombrebot": "NK-BOT", (pueden poner cualquier nombre al bot),
-    "TusRedesSociales": "~>[TuCanalDeYoutube]\n~>[PaginaDeFacebook]\n~>[TusOtrasRedesSociales...]"
-    }
+> pm2 kill
 ```
 
 ## Comentarios ó sugerencias :3
