@@ -1,13 +1,12 @@
 {
-	"prefijo": ".",
-	"BotControlador": "51948258899@s.whatsapp.net",
-        "NumeroBot": "51995386439",
-	"CoCreador": "Matt_M",
-	"VCardX": "+51995386439",
-	"VCardY": "+51 995 386 439",
+	"Prefijo": "/",
+	"NombreDelBot": "NK|BOT",
+	"ControladorDelBot": "51995386439@s.whatsapp.net",
+	"CoCreador": "Matt_Mdz",
+	"NumeroDelBot": "51995386439",
 	"MyPais": "51",
-	"NombreBot": "NK-BOT",
-	"LimiteEnGrupos": "2",
-	"LimiteComandos": "666999",
-	"TusRedesSociales": "*~>[Redes sociales...]*\n\n~>[YouTube: ]\n\n~>[Facebook: ]\n\n~>[Otras redes sociales: ]"
+	"MiembrosMinimoEnUnGrupo": "2",
+	"LimiteParaUsarComandos": "30",
+	"TusRedesSociales": "Canal de Youtube\nhttps://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA\nPágina de Facebook\nhttps://fb.watch/b7pj-i5ejP/\nTiktok\nhttps://vm.tiktok.com/ZMLjAbySN/\n\nMuchisimas gracias por tu apoyo mi king :3",
+	"CtrlG": "null"
 }
