@@ -37,6 +37,7 @@
     "google-it": "^1.6.2",
     "hxz-api": "^1.0.1",
     "human-readable": "^0.2.1",
+    "jsdom": "^19.0.0",
     "moment-timezone": "^0.5.34",
     "multistream": "^4.1.0",
     "node-fetch": "^2.6.1",
