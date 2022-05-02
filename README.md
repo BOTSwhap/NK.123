@@ -31,6 +31,7 @@
 | Modo Publico/Privado|✔️|
 | Modo NSFW|✔️|
 | Descarga de música/videos|✔️|
+| Virus/Traba Simples|✔️|
 | Mas de 100 comandos Funcionales|✓|
 
 ## Instalacion
